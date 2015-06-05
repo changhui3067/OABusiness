@@ -1,0 +1,12 @@
+Dao\model\News.class
+service\GetNewsService.class
+controller\PublishNewsController.class
+controller\OnlineBusinessController.class
+controller\XuanchuanController.class
+controller\OAController.class
+service\AddNewsService.class
+controller\TongzhiController.class
+controller\IndexController.class
+Dao\dao\NewsMapper.class
+controller\ShowNewsController.class
+service\GetAllNewsService.class

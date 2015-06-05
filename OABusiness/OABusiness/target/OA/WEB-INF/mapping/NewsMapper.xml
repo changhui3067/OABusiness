@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="Dao.dao.NewsMapper" >
+  <resultMap id="BaseResultMap" type="Dao.model.News" >
+    <id column="newsId" property="newsid" jdbcType="INTEGER" />
+    <result column="userId" property="userid" jdbcType="INTEGER" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="pushTime" property="pushtime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="Dao.model.News" extends="BaseResultMap" >
+    <result column="newsContent" property="newscontent" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    newsId, userId, title, pushTime
+  </sql>
+  <select id="getAllNews" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    newsid,title,n.pushTime as pushTime,newsContent,userId
+    from news n
+    Order By n.pushtime Desc
+    limit 0,#{newsCount,jdbcType=INTEGER}
+  </select>
+  <sql id="Blob_Column_List" >
+    newsContent
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from news
+    where newsId = #{newsid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from news
+    where newsId = #{newsid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="Dao.model.News" >
+    insert into news (newsId, userId, title, 
+      pushTime, newsContent)
+    values (#{newsid,jdbcType=INTEGER}, #{userid,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, 
+      #{pushtime,jdbcType=TIMESTAMP}, #{newscontent,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="Dao.model.News" >
+    insert into news
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="newsid != null" >
+        newsId,
+      </if>
+      <if test="userid != null" >
+        userId,
+      </if>
+      <if test="title != null" >
+        title,
+      </if>
+      <if test="pushtime != null" >
+        pushTime,
+      </if>
+      <if test="newscontent != null" >
+        newsContent,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="newsid != null" >
+        #{newsid,jdbcType=INTEGER},
+      </if>
+      <if test="userid != null" >
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="title != null" >
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="pushtime != null" >
+        #{pushtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="newscontent != null" >
+        #{newscontent,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="Dao.model.News" >
+    update news
+    <set >
+      <if test="userid != null" >
+        userId = #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="title != null" >
+        title = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="pushtime != null" >
+        pushTime = #{pushtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="newscontent != null" >
+        newsContent = #{newscontent,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where newsId = #{newsid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="Dao.model.News" >
+    update news
+    set userId = #{userid,jdbcType=INTEGER},
+      title = #{title,jdbcType=VARCHAR},
+      pushTime = #{pushtime,jdbcType=TIMESTAMP},
+      newsContent = #{newscontent,jdbcType=LONGVARCHAR}
+    where newsId = #{newsid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="Dao.model.News" >
+    update news
+    set userId = #{userid,jdbcType=INTEGER},
+      title = #{title,jdbcType=VARCHAR},
+      pushTime = #{pushtime,jdbcType=TIMESTAMP}
+    where newsId = #{newsid,jdbcType=INTEGER}
+  </update>
+</mapper>
