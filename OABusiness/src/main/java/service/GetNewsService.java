@@ -12,9 +12,8 @@ import org.springframework.stereotype.Service;
 public class GetNewsService {
     @Autowired(required = false)
     NewsMapper newsMapper;
-    public News getNews(Integer id){
+    public News getNewsDetail(Integer id){
         News news=newsMapper.selectByPrimaryKey(id);
-        System.out.println(news.getNewscontent());
         return news;
     }
 }

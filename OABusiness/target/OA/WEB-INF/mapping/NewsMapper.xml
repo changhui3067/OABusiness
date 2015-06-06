@@ -5,20 +5,27 @@
     <id column="newsId" property="newsid" jdbcType="INTEGER" />
     <result column="userId" property="userid" jdbcType="INTEGER" />
     <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="image" property="image" jdbcType="VARCHAR" />
     <result column="pushTime" property="pushtime" jdbcType="TIMESTAMP" />
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="Dao.model.News" extends="BaseResultMap" >
     <result column="newsContent" property="newscontent" jdbcType="LONGVARCHAR" />
   </resultMap>
   <sql id="Base_Column_List" >
-    newsId, userId, title, pushTime
+    newsId, userId, title, pushTime,image
   </sql>
-  <select id="getAllNews" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+  <select id="getCountNews" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select
     newsid,title,n.pushTime as pushTime,newsContent,userId
     from news n
     Order By n.pushtime Desc
     limit 0,#{newsCount,jdbcType=INTEGER}
+  </select>
+  <select id="getAllNews" resultMap="BaseResultMap" >
+    select
+    *
+    from news n
+    Order By n.pushtime Desc
   </select>
   <sql id="Blob_Column_List" >
     newsContent
@@ -37,9 +44,9 @@
   </delete>
   <insert id="insert" parameterType="Dao.model.News" >
     insert into news (newsId, userId, title, 
-      pushTime, newsContent)
+      pushTime, newsContent,image)
     values (#{newsid,jdbcType=INTEGER}, #{userid,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, 
-      #{pushtime,jdbcType=TIMESTAMP}, #{newscontent,jdbcType=LONGVARCHAR})
+      #{pushtime,jdbcType=TIMESTAMP}, #{newscontent,jdbcType=LONGVARCHAR}), #{image,jdbcType=VARCHAR}
   </insert>
   <insert id="insertSelective" parameterType="Dao.model.News" >
     insert into news
@@ -52,6 +59,9 @@
       </if>
       <if test="title != null" >
         title,
+      </if>
+      <if test="image != null" >
+        image,
       </if>
       <if test="pushtime != null" >
         pushTime,
@@ -70,6 +80,9 @@
       <if test="title != null" >
         #{title,jdbcType=VARCHAR},
       </if>
+      <if test="image != null" >
+        #{image,jdbcType=VARCHAR},
+      </if>
       <if test="pushtime != null" >
         #{pushtime,jdbcType=TIMESTAMP},
       </if>
@@ -87,6 +100,9 @@
       <if test="title != null" >
         title = #{title,jdbcType=VARCHAR},
       </if>
+      <if test="image != null" >
+        title = #{image,jdbcType=VARCHAR},
+      </if>
       <if test="pushtime != null" >
         pushTime = #{pushtime,jdbcType=TIMESTAMP},
       </if>
@@ -100,6 +116,7 @@
     update news
     set userId = #{userid,jdbcType=INTEGER},
       title = #{title,jdbcType=VARCHAR},
+      image = #{image,jdbcType=VARCHAR},
       pushTime = #{pushtime,jdbcType=TIMESTAMP},
       newsContent = #{newscontent,jdbcType=LONGVARCHAR}
     where newsId = #{newsid,jdbcType=INTEGER}
@@ -108,6 +125,7 @@
     update news
     set userId = #{userid,jdbcType=INTEGER},
       title = #{title,jdbcType=VARCHAR},
+      image = #{image,jdbcType=VARCHAR},
       pushTime = #{pushtime,jdbcType=TIMESTAMP}
     where newsId = #{newsid,jdbcType=INTEGER}
   </update>

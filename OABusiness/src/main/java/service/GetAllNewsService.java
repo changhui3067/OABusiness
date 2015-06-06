@@ -15,11 +15,14 @@ public class GetAllNewsService {
     @Autowired(required = false)
     NewsMapper newsmapper;
 
-    public List<News> getAllNews(Integer count){
+    public List<News> getCountNews(Integer count){
         List<News> newsList;
-        newsList = newsmapper.getAllNews(count);
-
-        System.out.println(newsList.get(0).getPushtime());
+        newsList = newsmapper.getCountNews(count);
         return newsList;
+    }
+    public List<News> getAllNews(){
+        List<News> newsList;
+        newsList=newsmapper.getAllNews();
+        return  newsList;
     }
 }

@@ -11,11 +11,12 @@ body,button,input,select,textarea {font:12px/1 Tahoma,'Microsoft Yahei','Simsun'
 html,body {font:12px/1.8 'Microsoft YaHei',Tahoma,Verdana,'Simsun';color:#000;background:#fcfcfc;-webkit-text-size-adjust:none;}
 img {border:none;}
 a {color:#1c57c4;text-decoration:underline;}
-a:hover {color:#1c57c4;}
+a:hover {color:#1c57c4; cursor: pointer;}
 input.text,textarea.textarea {background:#fff;color:#333;border:1px solid #eee;border-top-color:#999;border-left-color:#999;padding:1px;vertical-align:middle;height:22px;line-height:22px;}
 textarea.textarea {	height:50px;line-height:1.5;}
 input.anytext {background:#fff;color:#333;border:1px solid #ccc;padding:1px;vertical-align:middle;height:16px;line-height:16px;}
-input.submit {height:28px;line-height:20px;font-size:12px;padding:0px 20px;}
+input.submit {height:28px;line-height:20px;font-size:12px;padding:0px 20px;margin-left: 60px;
+}
 select {color:#333;}
 .floatl {float:left;}
 .floatr {float:right;}
@@ -63,7 +64,7 @@ span.keylist {
 }
 #indexid {
 	background:#fff;
-	min-height:700px;
+	min-height:560px;
 }
 #metcmsbox {
 	background:#fcfcfc;
@@ -2204,9 +2205,7 @@ div.showimg {
 	color:#000;
 }
 .sysadmin .boxlist div.mtsv p a {
-	}#newslist {
-	height:100px;
-}
+	}
 #newslist li {
 	list-style:none;
 	padding-left:3px;
@@ -2343,4 +2342,42 @@ div.showimg {
   background: url(../img/dt-0.gif) no-repeat left 19px;
   font: 12px/1.8 Tahoma,Verdana,'Simsun';
   color: #333;
+}
+
+/*  登录页面     */
+#login_frame {
+	width: 225px;
+	height: 200px;
+	margin: 0 auto;
+}
+.input_text{
+	margin: 2.0em 0 2.5em 2em;
+}
+
+.input_button{
+	margin-left:100px;
+}
+
+/* 装备录入*/
+textarea#Z_description {
+	width: 87.8%;
+	height: 120px;
+}
+input#Z_save_Button {
+	margin-left: -100px;
+}
+
+/*  装备显示页面   */
+
+table#equipment_table {
+	border: 1px solid #000;
+	margin-top:20px;
+	margin-left:50px;
+}
+
+table#equipment_table tr{
+	border: 1px solid #000;
+}
+table#equipment_table td{
+	text-align: center;
 }

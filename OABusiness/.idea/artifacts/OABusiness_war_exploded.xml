@@ -56,7 +56,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="D:\Project\OA\OABusiness\target/MANIFEST.MF" />
+        <element id="file-copy" path="E:\GitHub Local\OABusiness\OABusiness\target/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="OABusiness/web/Web" />
     </root>

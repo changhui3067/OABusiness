@@ -12,31 +12,28 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>网站关键词-网站名称</title>
-  <meta name="description" content="网站描述，一般显示在搜索引擎搜索结果中的描述文字，用于介绍网站，吸引浏览者点击。" />
-  <meta name="keywords" content="网站关键词" />
-  <meta name="generator" content="MetInfo 5.1.7" />
-  <link href="favicon.ico" rel="shortcut icon" />
+  <title>时事新闻</title>
+
   <link rel="stylesheet" type="text/css" href="/css/metinfo.css" />
 
 </head>
 <body>
 
 
-<header>
+<div class="header">
   <div class="inner">
     <div class="top-logo">
       <a href="/" title="网站名称" id="web_logo"><img src="/resources/img/logo.png" alt="网站名称" title="网站名称" style="margin:20px 0px 0px 0px;"/></a>
       <ul class="top-nav list-none"></ul>
     </div>
   </div>
-</header>
+</div>
 
 <div class="nav_background">
   <div class="nav_div">
     <nav>
       <ul class="list-none">
-        <li style='width:138px;' class='navdown'><a href='index.html' class='nav'><span>首页</span></a></li>
+        <li style='width:138px;' ><a href='/' class='nav'><span>首页</span></a></li>
         <li class="line"></li>
         <li style='width:138px;' ><a href='/onlineBusiness' class='hover-none nav'><span>在线办公</span></a></li>
         <li class="line"></li>
@@ -63,8 +60,8 @@
 
   <div class="sb_box">
     <h3 class="title">
-      <div class="position">当前位置：<a href="index" title="网站首页">网站首页</a> &gt; <a href="news" >学会新闻公告</a></div>
-      <span>学会新闻公告</span>
+      <div class="position">当前位置：<a href="/" title="网站首页">网站首页</a> &gt; <a href="news" >时事新闻列表</a></div>
+      <span>时事新闻</span>
     </h3>
     <div class="clear"></div>
 
@@ -75,6 +72,10 @@
         <span><script language='javascript'></script></span>
         更新时间：<fmt:formatDate value='${news.pushtime}' pattern='yyyy-MM-dd HH:mm:ss'/>&nbsp;&nbsp;
         【<a href="javascript:window.print()">打印此页</a>】
+      </div>
+
+      <div class="news_image">
+        <img src="${news.image}"/>
       </div>
 
       <div class="editor">

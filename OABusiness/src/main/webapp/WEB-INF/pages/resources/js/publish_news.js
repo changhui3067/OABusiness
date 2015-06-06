@@ -7,6 +7,7 @@
 	var topic = document.getElementById("G_topic").value;
 	var author = document.getElementById("G_author").value;
 	var content = document.getElementById("G_content").value;
+    //alert("topic="+topic+"&author="+author+"&content="+content);
 	if (window.XMLHttpRequest)
     {// code for IE7+, Firefox, Chrome, Opera, Safari
         xmlhttp=new XMLHttpRequest();

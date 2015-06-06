@@ -13,8 +13,5 @@ public class OnlineBusinessController {
     public String jumpToOnline(){
         return "office_index";
     }
-//    @RequestMapping(value="/addNews",method=RequestMethod.POST)
-//    public String addNews(){
-//
-//    }
+
 }

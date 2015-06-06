@@ -19,5 +19,6 @@ public interface NewsMapper {
 
     int updateByPrimaryKey(News record);
 
-    List<News> getAllNews(Integer count);
+    List<News> getCountNews(Integer count);
+    List<News> getAllNews();
 }

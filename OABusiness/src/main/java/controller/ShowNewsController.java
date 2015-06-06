@@ -21,25 +21,29 @@ import service.GetNewsService;
 public class ShowNewsController {
     @Autowired
     GetAllNewsService getAllNewsService;
-    @RequestMapping(value="/news",method=RequestMethod.GET)
-    public String reqNews(ModelMap modelMap,HttpSession httpSession){
-        //int newsCount =(Integer)httpSession.getAttribute("noteCount");
-        int newsCount = 10;
+    @RequestMapping(value="/newsList",method=RequestMethod.GET)
+    public String reqNewsList(ModelMap modelMap){
         List<News> newsList;
-        newsList=getAllNewsService.getAllNews(newsCount);
+        newsList=getAllNewsService.getAllNews();
         modelMap.addAttribute("newsList",newsList);
-        return "news";
+        return "List_news";
     }
 
     @Autowired
     GetNewsService getNewsService;
-    @RequestMapping(value="/shownews.jsp/{newsid}",method=RequestMethod.GET)
-    public String getNews(@PathVariable("newsid") Integer newsid, ModelMap modelMap,
-                          HttpSession httpSession){
-        News news = getNewsService.getNews(newsid);
+    @RequestMapping(value="/shownews/{newsid}",method=RequestMethod.GET)
+    public String getNewsDetail(@PathVariable("newsid") Integer newsid, ModelMap modelMap){
+        News news = getNewsService.getNewsDetail(newsid);
         modelMap.addAttribute("news", news);
-
         System.out.println(newsid);
         return "shownews";
     }
+    @RequestMapping(value = "/historyNews", method = RequestMethod.GET)
+    public String getHistoryNews(ModelMap modelMap){
+        List<News> newsList;
+        newsList=getAllNewsService.getAllNews();
+        modelMap.addAttribute("newsList",newsList);
+        return "history_news";
+    }
+
 }

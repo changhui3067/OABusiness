@@ -17,7 +17,7 @@ public class GetNewsServiceTest extends TestCase {
     GetNewsService getNewsService;
     @Test
     public void getNewsTest(){
-        getNewsService.getNews(1);
+        getNewsService.getNewsDetail(1);
     }
 
 }

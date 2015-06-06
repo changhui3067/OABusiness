@@ -20,19 +20,19 @@ public class PublishNewsController {
     public
     @ResponseBody String
     publishNews( @RequestParam(value="topic",required = false) String topic,
-                 @RequestParam(value="author",required = false) Integer author,
+                 @RequestParam(value="author",required = false) String author,
                  @RequestParam(value="content",required = false) String content){
-        String t="", c="";
-        try {
-            t = new String( topic.getBytes("ISO-8859-1") , "UTF-8");
-            c = new String( content.getBytes("ISO-8859-1") , "UTF-8");
-            System.out.println(t+"\t"+c);
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            topic = new String( topic.getBytes("ISO-8859-1") , "UTF-8");
+//            System.out.println(content);
+//            content = new String( content.getBytes("ISO-8859-1") , "UTF-8");
+//            System.out.println(topic+"\t"+content);
+//        } catch (UnsupportedEncodingException e) {
+//            e.printStackTrace();
+//        }
         News news=new News();
-        news.setNewscontent(c);
-        news.setTitle(t);
+        news.setNewscontent(content);
+        news.setTitle(topic);
         news.setUserid(2);
         String result=addNewsService.addNews(news);
         return result;

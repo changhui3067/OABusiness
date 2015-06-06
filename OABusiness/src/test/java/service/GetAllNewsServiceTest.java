@@ -1,11 +1,14 @@
 package service;
 
+import Dao.model.News;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
+
+import java.util.List;
 
 /**
  * Created by Administrator on 2015/5/28.
@@ -19,6 +22,8 @@ public class GetAllNewsServiceTest {
     GetAllNewsService getAllNewsService;
     @Test
     public void getAllNewsTest(){
-        getAllNewsService.getAllNews(3);
+       List<News> newsList=getAllNewsService.getAllNews();
+        System.out.println(newsList.get(0).getNewscontent());
+
     }
 }
