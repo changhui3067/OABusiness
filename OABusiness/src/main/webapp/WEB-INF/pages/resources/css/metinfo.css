@@ -376,14 +376,18 @@ ul.searchnavlist li{ padding:5px 0px;}
 
 /*  showNews页面 */
 .news_image{
+	margin-top:20px;
 	width:725px;
 	height:400px;
 
 }
 .news_image img{
-	margin-left: 75px;
-	padding:0 auto;
+
 	height:380px;
+	clear:both;
+	display:block;
+	margin:0 auto;
 }
+
 
 

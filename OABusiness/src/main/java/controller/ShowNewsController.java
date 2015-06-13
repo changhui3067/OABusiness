@@ -5,8 +5,6 @@ import service.GetAllNewsService;
 
 import java.util.List;
 
-import javax.servlet.http.HttpSession;
-
 import Dao.model.News;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -38,12 +36,13 @@ public class ShowNewsController {
         System.out.println(newsid);
         return "shownews";
     }
+
     @RequestMapping(value = "/historyNews", method = RequestMethod.GET)
     public String getHistoryNews(ModelMap modelMap){
         List<News> newsList;
         newsList=getAllNewsService.getAllNews();
         modelMap.addAttribute("newsList",newsList);
-        return "history_news";
+        return "R1_history_news";
     }
 
 }

@@ -64,7 +64,7 @@
 
 
 <div class="case style-2">
-<h3 class='title myCorner' data-corner='top 5px'><a href="/tongzhiList" title="更多" class="more">更多>></a>通知公告</h3>
+<h3 class='title myCorner' data-corner='top 5px'><a href="/newsList" title="更多" class="more">更多>></a>通知公告</h3>
 	<div class="active clear listel ">
 	<ol class='list-none metlist'>
 		<c:forEach items="${newsList}" var="news" begin="${0}" end="${7}">
@@ -81,7 +81,7 @@
 <div class="clear"></div>
     
 <div class="index-news style-1">
-<h3 class="title"><span class='myCorner' data-corner='top 5px'>宣传报道</span><a href="/xuanchuanList" class="more" title="链接关键词">更多>></a></h3>
+<h3 class="title"><span class='myCorner' data-corner='top 5px'>宣传报道</span><a href="/newsList" class="more" title="链接关键词">更多>></a></h3>
 <div class="active clear listel contour-2">
 <ol class='list-none metlist'>
 	<c:forEach items="${newsList}" var="news" begin="${0}" end="${7}">

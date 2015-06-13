@@ -18,19 +18,7 @@ public class OAController {
 
     @RequestMapping(value = "/publishNews", method = RequestMethod.GET)
     public String getPublishNews(ModelMap model){
-        return "publish_news";
-    }
-
-
-
-    @RequestMapping(value = "/publishEquipment", method = RequestMethod.GET)
-    public String getPublishEqui(ModelMap model){
-        return "publish_equipment";
-    }
-
-    @RequestMapping(value = "/showEquipment", method = RequestMethod.GET)
-    public String getShowEqui(ModelMap model){
-        return "show_equipment";
+        return "R1_publish_news";
     }
 
 
@@ -69,22 +57,12 @@ public class OAController {
 
     @RequestMapping(value = "/oaOther", method = RequestMethod.GET)
     public String getOaOther(ModelMap model){
-        return "oa_File";
+        return "oa_Other";
     }
 
     @RequestMapping(value = "/oaSafety", method = RequestMethod.GET)
     public String getOaSafety(ModelMap model){
         return "oa_Safety";
-    }
-
-    @RequestMapping(value = "/addEmployee", method = RequestMethod.GET)
-    public String getAddEmployee(ModelMap model){
-        return "add_Employee";
-    }
-
-    @RequestMapping(value = "/modifyEmployee", method = RequestMethod.GET)
-    public String getModifyEmployee(ModelMap model){
-        return "modify_Employee";
     }
 
 }

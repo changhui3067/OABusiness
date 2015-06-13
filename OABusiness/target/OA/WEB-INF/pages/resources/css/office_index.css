@@ -64,12 +64,12 @@ span.keylist {
 }
 #indexid {
 	background:#fff;
-	min-height:560px;
+	min-height:680px;
 }
-#metcmsbox {
+.metcmsbox {
 	background:#fcfcfc;
 }
-#metcmsbox a {
+.metcmsbox a {
 	color:#000;
 	text-decoration:none;
 }
@@ -111,6 +111,7 @@ span.keylist {
 	position:absolute;
 	right:0px;
 	top:0px;
+	padding-top: 30px;
 	height:80px;
 	text-align:right;
 }
@@ -2206,17 +2207,7 @@ div.showimg {
 }
 .sysadmin .boxlist div.mtsv p a {
 	}
-#newslist li {
-	list-style:none;
-	padding-left:3px;
-	height:25px;
-	line-height:25px;
-	overflow:hidden;
-}
-#newslist li span {
-	float:right;
-	color:#999;
-}
+
 .sysadmin .topbox {
 	overflow:hidden;
 }
@@ -2327,22 +2318,13 @@ div.showimg {
 
 
 /*     历史新闻列表              */
-#newslist {
-  padding-top:15px;
-  padding-left:30px;
-  padding-right:200px;
-}
+
 .list-none {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
-#newslist li {
-  padding: 6px 10px;
-  background: url(../img/dt-0.gif) no-repeat left 19px;
-  font: 12px/1.8 Tahoma,Verdana,'Simsun';
-  color: #333;
-}
+
 
 /*  登录页面     */
 #login_frame {
@@ -2369,15 +2351,300 @@ input#Z_save_Button {
 
 /*  装备显示页面   */
 
-table#equipment_table {
+table.equipment_table {
 	border: 1px solid #000;
 	margin-top:20px;
 	margin-left:50px;
 }
 
-table#equipment_table tr{
+table.equipment_table tr{
 	border: 1px solid #000;
 }
-table#equipment_table td{
+table.equipment_table td{
 	text-align: center;
 }
+
+/*  日程申请、审批  */
+.approval_bar{
+	width:530px;
+	margin-left:40px;
+	margin-top:18px;
+	border-bottom: 1px solid #1E71B0;
+}
+.approval_bar span{
+	font-size:14px;
+}
+#num_approval{
+	font-size: 16px;
+	color: red;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#request_Time{
+	margin-left:40px;
+	margin-top:18px;
+}
+.top_tr{
+	background: #C8C6C6;
+}
+/* 2-4  */
+.ZG_status_off {
+	background: url(../img/holiday.png) no-repeat left 9px;
+}
+
+.ZG_status_on {
+	background: url(../img/atWork.png) no-repeat left 9px;
+}
+
+.ZG_status_out {
+	background: url(../img/chuchai.png) no-repeat left 9px;
+}
+
+div#total_data {
+	margin-left: 50px;
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top: 1px solid #1E71B1;
+	width: 532px;
+}
+div#total_data .list{
+	padding: 6px 10px;
+	background: url(../img/dt-0.gif) no-repeat left 19px;
+	font: 12px/1.8 Tahoma,Verdana,'Simsun';
+	color: #333;
+}
+
+/* 3-1*/
+.single_message {
+	width: 100%;
+	height: 35px;
+	line-height: 2em;
+}
+.rec_from {
+	width: 14%;
+	float: left;
+	margin-left: 2px;
+	color: gray;
+}
+.time {
+	float: right;
+	font-weight: 600;
+	padding: 0.6em 0em;
+	margin-right: 110px;
+	margin-top: -28px;
+	font-size: 0.75em;
+	line-height: 1.8em;
+	color: #414A5A;
+}
+
+
+/*****************From Freyja 2015-06-13***************************/
+.right_content_wrap{
+	width: 80%;
+	margin:0 auto;
+	padding:15px;
+}
+#bcdetail_title,#bcdetail_publisher,#bcdetail_content{
+	font-size: 16px;
+	margin:5px;
+}
+
+/* 3-2*/
+.persons{
+	padding:10px;
+	width:12%;
+	height:500px;
+	float:left;
+	background:#fff;
+
+}
+
+.persons ul{
+	font-size:15px;
+	text-align: center;
+	border:1px solid #000;
+}
+.persons ul .list_top{
+	background:#27A2CC;
+}
+.persons ul .list_chosed{
+	background:#FCEBA6;
+}
+.chat_room{
+	font-size:15px;
+	width:80%;
+	float:left;
+	margin-top:10px;
+	border:1px solid #000;
+}
+.chat_title{
+	border-bottom:1px solid #000;
+	background:#27A2CC;
+}
+.chat_content{
+	height:472px;
+	background: #fff;
+}
+.chatted{
+	height: 70%;
+	border-bottom:1px solid #000;
+}
+.chatting{
+	hegiht: 30%;
+	background: #E2D9FF;
+}
+.chat_input {
+	height: 106px;
+	padding:4px;
+}
+
+.chat_bottom{
+	background: #E8ECFF;
+}
+.chat_bottom span{
+		font-size: 15px;
+}
+.chat_bottom input {
+	float: right;
+	margin-top: 2px;
+}
+.chat_bottom input[type="button"] {
+	font-size: 15px;
+	margin-right: 5px;
+	width: 75px;
+}
+
+
+
+/*  3-3   */
+.fileDeliver_div{
+	font-size:15px;
+	width:80%;
+	float:left;
+	margin-top:30px;
+}
+/* 4-1 */
+.list_things {
+	padding-top:15px;
+	padding-left:30px;
+	padding-right:200px;
+}
+.list_things li {
+	list-style:none;
+	padding-left:3px;
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+}
+.list_things li {
+	padding: 6px 10px;
+	background: url(../img/dt-0.gif) no-repeat left 19px;
+	font: 12px/1.8 Tahoma,Verdana,'Simsun';
+	color: #333;
+}
+.list_things li span {
+	float:right;
+	color:#999;
+}
+
+/*   4-2  */
+.save_rights input[type="button"] {
+	margin-left: 320px;
+	float: left;
+}
+
+/* 5-2 */
+
+/*****************From Freyja 2015-06-13***************************/
+.right_content_wrap{
+	width: 80%;
+	margin:0 auto;
+	padding:15px;
+}
+#bcdetail_title,#bcdetail_publisher,#bcdetail_content{
+	font-size: 16px;
+	margin:5px;
+}
+
+#R5_printdata{
+	margin-left: 50px;
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top: 1px solid #1E71B1;
+	width: 750px;
+}
+
+#R5_printdata button{
+	float: right;
+	margin-right: 20px;
+	width: 100px;
+	height: 30px;
+}
+
+#R5_printdata button:hover{
+	background-color: #1E71B1;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+}
+
+/*  7-1*/
+/*  权限管理页面   */
+#R7_rights1, #R7_rights2, #R7_rights4{
+	width: 80%;
+	margin: 0 auto;
+	padding:5px;
+}
+
+#R7_op{
+	width: 95%;
+	margin: 0 auto;
+	padding:5px;
+}
+
+table#R7_table1, table#R7_table2, table#R7_table3, table#R7_table4 {
+	border: 1px solid #000;
+	margin-top:20px;
+}
+
+table#R7_table1 tr, table#R7_table2 tr, table#R7_table3 tr, table#R7_table4 tr{
+	border: 1px solid #000;
+}
+table#R7_table1 td, table#R7_table2 td, table#R7_table3 td, table#R7_table4 td{
+	text-align: center;
+}
+table#R7_table1 label, table#R7_table2 label{
+	padding-left: 10px;
+}
+
+.saveChanges{
+	width: 100%;
+	margin-top: 10px;
+	height:40px;
+}
+.saveChanges input[type=button], #backupbtn, .recovery{
+	float: right;
+	width: 100px;
+	height: 30px;
+}
+
+.saveChanges input[type=button]:hover,
+#backupbtn:hover,
+.recovery:hover
+{
+	background-color: #1E71B1;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+}
+
+.backup_bar{
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 1px solid #1E71B0;
+	height: 40px;
+	padding:5px;
+}
+
+

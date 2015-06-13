@@ -31,7 +31,7 @@
 <div class="floatr" id="metright">
   <div class="iframe">
     <div class="min" id="min">
-      <jsp:include page="add_Employee.jsp"></jsp:include>
+      <jsp:include page="R2_add_Employee.jsp"></jsp:include>
     </div>
   </div>
 </div>

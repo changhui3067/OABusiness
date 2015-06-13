@@ -12,11 +12,12 @@
 	<script src="resources/js/metinfo.js" type="text/javascript"></script>
 	<script type="text/javascript" src="resources/js/cookie.js"></script>
 	<script type="text/javascript" src="resources/js/office_index.js"></script>
+	<script type="text/javascript" src="resources/js/R5.js"></script>
 </head>
 
 
 <body id="indexid">
-<div id="metcmsbox">
+<div class="metcmsbox">
 	<div id="top">
 		<div class="wrap">
 			<div class="floatr">
@@ -24,9 +25,9 @@
 				<div class="top-r-box">
 					<div class="top-right-boxr">
 						<div class="top-r-t">
-							您好 <a href="#" id="mydata" title="编辑 admin 的个人资料" class='tui' style="text-decoration:underline;">潘总</a><span>-</span><a target="_top" href="#" id="outhome" title="退出" class='tui'>退出</a></div>
-						<div class="backToIndex">
-							<a href="/">回到首页</a>
+							您好 <a href="#" id="mydata" class='tui' style="text-decoration:underline;">潘总</a>
+							<span>-</span>
+							<a href="#" id="outhome" title="退出" class='tui'>退出</a>
 						</div>
 					</div>
 					<div class="nav">

@@ -60,7 +60,7 @@
 
   <div class="sb_box">
     <h3 class="title">
-      <div class="position">当前位置：<a href="/" title="网站首页">网站首页</a> &gt; <a href="news" >通知公告列表</a></div>
+      <div class="position">当前位置：<a href="/" title="网站首页">网站首页</a> &gt; <a href="/newsList">通知公告列表</a></div>
       <span>通知公告</span>
     </h3>
     <div class="clear"></div>

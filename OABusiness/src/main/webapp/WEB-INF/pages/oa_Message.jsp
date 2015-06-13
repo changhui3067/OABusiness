@@ -29,7 +29,7 @@
 <div class="floatr" id="metright">
   <div class="iframe">
     <div class="min" id="min">
-      <jsp:include page="publish_news.jsp"></jsp:include>
+      <jsp:include page="R3_broadcast.jsp"></jsp:include>
     </div>
   </div>
 </div>
