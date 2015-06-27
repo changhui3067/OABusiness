@@ -80,6 +80,7 @@ span.keylist {
 }
 .right_content{
 	margin-top:10px;
+	margin-bottom: 20px;
 }
 #top .floatl img{
 	margin-top:18px;
@@ -2317,7 +2318,40 @@ div.showimg {
 .nowawecs{ font-weight:bold; color:#f00!important; font-size:14px;}
 
 
+/* 0 Personal*/
+#detail_Info{
+	padding-top: 20px;
+	/*padding-left: 15px;*/
+	width: 400px;
+	margin:0 auto;
+}
+
+#detail_Info h1{
+	font-size: 18px;
+	padding-left: 140px;
+}
+
+#detail_Info p{
+	font-size: 14px;
+}
+.info_label{
+	font-weight: bold;
+}
+
+#text_left{
+	float:left;
+}
+#head_Image{
+	float:right;
+	width:120px;
+	height:210px;
+}
+/* 1-2*/
 /*     历史新闻列表              */
+.news_operate{
+	float:right;
+}
+
 
 .list-none {
   list-style: none;
@@ -2338,10 +2372,19 @@ div.showimg {
 
 .input_button{
 	margin-left:100px;
+	background: #eee;
+	border:1px solid #ddd;
+	width: 90px;
+	text-align: center;
+}
+.input_button a{
+
+	text-decoration: none;
+	color:#000;
 }
 
 /* 装备录入*/
-textarea#Z_description {
+textarea.Z_description {
 	width: 87.8%;
 	height: 120px;
 }
@@ -2401,14 +2444,23 @@ table.equipment_table td{
 	background: url(../img/chuchai.png) no-repeat left 9px;
 }
 
-div#total_data {
-	margin-left: 50px;
-	margin-top: 20px;
-	padding-top: 10px;
-	border-top: 1px solid #1E71B1;
-	width: 532px;
+#total_Depart{
+	float:left;
+	margin-top: -10px;
 }
-div#total_data .list{
+
+#total_Depart a{
+	text-decoration: underline;
+}
+
+.total_data_1 {
+	margin-left: 10px;
+	margin-top: 7px;
+	position:fixed;
+	z-index:1000;
+}
+
+.total_data .list{
 	padding: 6px 10px;
 	background: url(../img/dt-0.gif) no-repeat left 19px;
 	font: 12px/1.8 Tahoma,Verdana,'Simsun';
@@ -2430,9 +2482,8 @@ div#total_data .list{
 .time {
 	float: right;
 	font-weight: 600;
-	padding: 0.6em 0em;
+	/*padding: 0.6em 0em;*/
 	margin-right: 110px;
-	margin-top: -28px;
 	font-size: 0.75em;
 	line-height: 1.8em;
 	color: #414A5A;
@@ -2514,6 +2565,12 @@ div#total_data .list{
 	margin-right: 5px;
 	width: 75px;
 }
+.chat_bottom input[type="file"] {
+	float:left;
+	font-size: 15px;
+	margin-left: 5px;
+	width: 238px;
+}
 
 
 
@@ -2526,8 +2583,8 @@ div#total_data .list{
 }
 /* 4-1 */
 .list_things {
-	padding-top:15px;
-	padding-left:30px;
+	/*padding-top:15px;*/
+	padding-left:70px;
 	padding-right:200px;
 }
 .list_things li {
@@ -2546,6 +2603,7 @@ div#total_data .list{
 .list_things li span {
 	float:right;
 	color:#999;
+	margin-right: 20px;
 }
 
 /*   4-2  */

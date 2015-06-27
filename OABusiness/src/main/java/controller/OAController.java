@@ -30,7 +30,13 @@ public class OAController {
     *
     *
     * */
-    @RequestMapping(value = "/oaNews", method = RequestMethod.GET)
+    @RequestMapping(value = "/personalZone", method = RequestMethod.GET)
+    public String getPersonalZone(ModelMap model){
+        return "oa_Personal";
+    }
+
+
+     @RequestMapping(value = "/oaNews", method = RequestMethod.GET)
     public String getOaNews(ModelMap model){
         return "oa_News";
     }

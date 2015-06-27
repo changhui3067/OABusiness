@@ -37,7 +37,7 @@ function  onClickJump(param){
             xmlhttp.open("GET","/requestOrApproval",true);
             break;
         case "2_4":
-            xmlhttp.open("GET","/Statistic",true);
+            xmlhttp.open("GET","/totalStatistic",true);
             break;
         case "3_1":
             xmlhttp.open("GET","/broadcast",true);
@@ -113,6 +113,10 @@ function  onClickJumpMenu(param){
         document.getElementById("office_down").innerHTML = response;
     };
     switch(page){
+        case "personal_Zone":
+            xmlhttp.open("GET","/personalZone",true);
+            break;
+
         case "nav_1":
             xmlhttp.open("GET","/oaNews",true);
             break;
@@ -175,6 +179,13 @@ function  R_onClickJump(param){
         case "R2_aList":
             xmlhttp.open("GET","/approval_List",true);xmlhttp.send();
             break;
+        case "R2_total_Statistic":
+            xmlhttp.open("GET","/Statistic",true);xmlhttp.send();
+            break;
+        case "R2_Statistic":
+            xmlhttp.open("GET","/totalStatistic",true);xmlhttp.send();
+            break;
+
         case "R3_1main":
             xmlhttp.open("GET","/broadcast",true);xmlhttp.send();
             break;

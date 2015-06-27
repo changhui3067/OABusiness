@@ -25,7 +25,7 @@
 				<div class="top-r-box">
 					<div class="top-right-boxr">
 						<div class="top-r-t">
-							您好 <a href="#" id="mydata" class='tui' style="text-decoration:underline;">潘总</a>
+							您好 <a onclick="onClickJumpMenu(this)" name="personal_Zone" id="mydata" class='tui' style="text-decoration:underline;">余成东</a>
 							<span>-</span>
 							<a href="#" id="outhome" title="退出" class='tui'>退出</a>
 						</div>

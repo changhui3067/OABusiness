@@ -17,8 +17,8 @@
 
     <ul id="ul_3">
       <li ><a onclick="onClickJump(this)" target='main' name='3_1' id='nav_3_1' class="on" title="广播通知" hidefocus="true">广播通知</a></li>
-      <li ><a onclick="onClickJump(this)" target='main' name='3_2' id='nav_3_2' title="即时消息" hidefocus="true">即时消息</a></li>
-      <li ><a onclick="onClickJump(this)" target='main' name='3_3' id='nav_3_3' title="传送文件" hidefocus="true">传送文件</a></li>
+      <li ><a onclick="onClickJump(this)" target='main' name='3_2' id='nav_3_2' title="即时消息" hidefocus="true">会话与文件</a></li>
+      <li style="display: none;"><a onclick="onClickJump(this)" target='main' name='3_3' id='nav_3_3' title="传送文件" hidefocus="true">传送文件</a></li>
     </ul>
 
   </div>

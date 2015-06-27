@@ -17,9 +17,20 @@
     <div id="newslist" class="list_things">
         <ul class='list-none metlist'>
             <c:forEach items="${newsList}" var="news">
-                <li class='list'>
+                <%--<li class='list'>
                     <span class='time'>[<fmt:formatDate value='${news.pushtime}' pattern='yyyy-MM-dd'/>]</span>
                     <a href='/shownews/${news.newsid}' target="_blank">${news.title}</a>
+                </li>--%>
+                <li class='list'>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="news_operate">
+                        <input type="button" name="modify" value="修改" />&nbsp;&nbsp;|&nbsp;
+                        <input type="button" name="delete" value="删除" />
+                    </div>
+
+                    <span class='time'>[<fmt:formatDate value='${news.pushtime}' pattern='yyyy-MM-dd'/>]</span>
+                    <a href='/shownews/${news.newsid}' target="_blank">${news.title}</a>
+
                 </li>
             </c:forEach>
         </ul>

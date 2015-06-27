@@ -37,8 +37,16 @@
                 </div>
                 <div class="chat_bottom">
                     <span>
+
                         <input type="button" name="send" value="发送" />&nbsp;&nbsp;&nbsp;
-                        <input type="button" name="close" value="关闭" />
+                        <input type="button" name="close" value="关闭" />&nbsp;&nbsp;&nbsp;
+                        <input name="met_upsql" type="file" id="file_upload" />
+                        <!--<script type='text/javascript'>
+                            $(document).ready(function(){
+                                metuploadify('#file_upload','upimage','met_logo');
+                            });
+                        </script>-->
+
                     </span>
                 </div>
             </div>

@@ -32,8 +32,12 @@ public class R2_EmployeeController {
     }
 
     @RequestMapping(value = "/approval_List", method = RequestMethod.GET)
-    public String getApprovalList(ModelMap model){
+      public String getApprovalList(ModelMap model){
         return "R2_approval";
     }
 
+    @RequestMapping(value = "/totalStatistic", method = RequestMethod.GET)
+    public String getTotalStatisitic(ModelMap model){
+        return "R2_totalStatistic";
+    }
 }

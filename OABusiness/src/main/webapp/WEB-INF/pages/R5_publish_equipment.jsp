@@ -18,44 +18,67 @@
         <table cellpadding="2" cellspacing="1" class="table">
 
             <tr>
-                <td class="text"><span class="bi_tian">*</span>装备ID：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td class="input"><input name="met_webname" type="text" class="text" id="Z_id"/></td>
-            </tr>
-
-            <tr>
-                <td class="text"><span class="bi_tian">*</span>装备名称：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td class="text"><span class="bi_tian">*</span>排查部位：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                 <td class="input">
                     <input name="met_weburl" type="text" class="text" id="Z_name"/>
                 </td>
             </tr>
 
+
             <tr>
-                <td class="text"><span class="bi_tian">*</span>装备所在位置：</td>
+                <td class="text"><span class="bi_tian">*</span>用到的特殊工具：</td>
                 <td class="input">
-                    <input name="met_weburl" type="text" class="text" id="Z_position"/>
+                    <input name="met_weburl" type="text" class="text" id="Z_tools"/>
                 </td>
             </tr>
 
             <tr>
-                <td class="text"><span class="bi_tian">*</span>录入人：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td class="text"><span class="bi_tian">*</span>更换的备件：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                 <td class="input">
-                    <input name="met_weburl" type="text" class="text" id="Z_responsible"/>
+                    <input name="met_weburl" type="text" class="text" id="Z_replacements"/>
                 </td>
             </tr>
 
             <tr>
-                <td class="text"><span class="bi_tian">*</span>装备状态：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td class="text"><span class="bi_tian">*</span>修理过程图片：&nbsp;&nbsp;&nbsp;&nbsp;</td>
                 <td class="input">
-                    <input name="met_weburl" type="text" class="text" id="Z_status"/>
+                    <input name="met_upsql" type="file" id="file_upload" />
+                    <!--<script type='text/javascript'>
+                        $(document).ready(function(){
+                            metuploadify('#file_upload','upimage','met_logo');
+                        });
+                    </script>-->
                 </td>
             </tr>
 
+
             <tr>
-                <td class="text"><span class="bi_tian">*</span>备注：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td class="text"><span class="bi_tian">*</span>故障现象：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
             </tr>
+
             <tr>
                 <td colspan="2" class="text">
-                    <textarea rows="30" cols="50" name="editor01" id="Z_description">示例备注</textarea>
+                    <textarea rows="30" cols="50" name="editor01" class="Z_description" id="Z_xianxiang"></textarea>
+                    <span class="tips">100字以内</span>	</td>
+            </tr>
+
+            <tr>
+                <td class="text"><span class="bi_tian">*</span>修理方法及过程：</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="text">
+                    <textarea rows="30" cols="50" name="editor01" class="Z_description" id="Z_method"></textarea>
+                    <span class="tips">100字以内</span>	</td>
+            </tr>
+
+            <tr>
+                <td class="text"><span class="bi_tian">*</span>修理注意事项：&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="text">
+                    <textarea rows="30" cols="50" name="editor01" class="Z_description" id="Z_focusPoint"></textarea>
                     <span class="tips">100字以内</span>	</td>
             </tr>
 

@@ -16,32 +16,39 @@
 
 <body id="indexid">
 <div id="metcmsbox" style="width:100%;">
-	<div id="top">
-		<div class="floatr">
-			<div class="top-r-box">
-				<div class="top-right-boxr">
-					<div class="top-r-t">
-						<span>您好，请登录</span>
+
+		<div id="top">
+			<div class="wrap">
+				<div class="floatr">
+					<div class="top-r-box">
+						<div class="top-right-boxr">
+							<div class="top-r-t">
+								<span>您好，请登录</span>
+							</div>
+						</div>
 					</div>
+				</div>
+				<div class="floatl">
+					<a href="/" hidefocus="true" id="met_logo"><img src="resources/img/logo_2.png" alt="综合办公系统" title="综合办公系统" /></a>
 				</div>
 			</div>
 		</div>
-		<div class="floatl">
-			<a href="#" hidefocus="true" id="met_logo"><img src="resources/img/logo_2.png" alt="综合办公系统" title="综合办公系统" /></a>
-		</div>
-	</div>
-	<div id="content">
-		<div id="login_frame">
-			<div class="input_text">
-				<label for="username">账&nbsp;&nbsp;户</label>
-				<input type="text" id="L_name" name="username" class="text" size="20">
+		<div id="content">
+			<div class="wrap">
+				<div id="login_frame">
+				<div class="input_text">
+					<label for="username">账&nbsp;&nbsp;户</label>
+					<input type="text" id="L_name" name="username" class="text" size="20">
+				</div>
+				<div class="input_text">
+					<label for="password">密&nbsp;&nbsp;码</label>
+					<input type="password" id="L_pwd" name="password" class="text" size="20">
+				</div>
+				<div class="input_button">
+					<%--<button type="submit" class="button positive" ><a href=/onlineBusiness"></a>登 录</button>--%>
+						<a href="/onlineBusiness">登录</a>
+				</div>
 			</div>
-			<div class="input_text">
-				<label for="password">密&nbsp;&nbsp;码</label>
-				<input type="password" id="L_pwd" name="password" class="text" size="20">
-			</div>
-			<div class="input_button">
-				<button type="submit" class="button positive">登 录</button>
 			</div>
 		</div>
 	</div>
