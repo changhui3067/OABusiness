@@ -16,12 +16,12 @@
 
 <div class="right_content">
     <div class="backToR">
-        <a onclick="R_onClickJump(this)" name="R2_3main">返回</a>
+        <a style="text-decoration: underline;color:gray;" onclick="R_onClickJump(this)" name="R2_approvalHistory">历史审批记录</a>
     </div>
 
 
     <div id="equipment_list">
-        <table id="equipment_table">
+        <table class="equipment_table">
             <tbody>
             <tr class="top_tr">
                 <th width="60" scope="col">职工ID</th>
@@ -31,9 +31,10 @@
                 <th width="100"  scope="col">提交时间</th>
                 <th width="100"  scope="col">审批处理</th>
             </tr>
+
             <tr>
-                <td id="Z_Id">09123</td>
-                <td id="Z_name">张三</td>
+                <td id="Z_Id"><a onclick="R_onClickJump(this)" name="R2_approvalDetail"style="text-decoration: underline;">09123</a></td>
+                <td id="Z_name"><a onclick="R_onClickJump(this)" name="R2_approvalDetail" style="text-decoration: underline;">张三</a></td>
                 <td id="Z_position">请假</td>
                 <td id="Z_responsible">2015.06.11~2015.06.18</td>
                 <td id="Z_time">2015-6-1</td>
@@ -44,71 +45,11 @@
             </tr>
 
             <tr>
-                <td id="Z_Id">09123</td>
-                <td id="Z_name">张三</td>
-                <td id="Z_position">请假</td>
-                <td id="Z_responsible">2015.06.11~2015.06.18</td>
-                <td id="Z_time">2015-6-1</td>
-                <td>
-                    <input type="button" name="modify" value="通过" />&nbsp;&nbsp;|&nbsp;
-                    <input type="button" name="delete" value="不通过" />
-                </td>
-            </tr>
-
-            <tr>
-                <td id="Z_Id">09123</td>
-                <td id="Z_name">张三</td>
-                <td id="Z_position">请假</td>
-                <td id="Z_responsible">2015.06.11~2015.06.18</td>
-                <td id="Z_time">2015-6-1</td>
-                <td>
-                    <input type="button" name="modify" value="通过" />&nbsp;&nbsp;|&nbsp;
-                    <input type="button" name="delete" value="不通过" />
-                </td>
-            </tr>
-
-            <tr>
-                <td id="Z_Id">09123</td>
-                <td id="Z_name">余承东</td>
-                <td id="Z_position">出差</td>
-                <td id="Z_responsible">2015.06.11~2015.06.18</td>
-                <td id="Z_time">2015-6-1</td>
-                <td>
-                    <input type="button" name="modify" value="通过" />&nbsp;&nbsp;|&nbsp;
-                    <input type="button" name="delete" value="不通过" />
-                </td>
-            </tr>
-
-            <tr>
-                <td id="Z_Id">09123</td>
-                <td id="Z_name">马云</td>
-                <td id="Z_position">请假</td>
-                <td id="Z_responsible">2015.06.11~2015.06.18</td>
-                <td id="Z_time">2015-6-1</td>
-                <td>
-                    <input type="button" name="modify" value="通过" />&nbsp;&nbsp;|&nbsp;
-                    <input type="button" name="delete" value="不通过" />
-                </td>
-            </tr>
-
-            <tr>
-                <td id="Z_Id">09123</td>
-                <td id="Z_name">王武</td>
-                <td id="Z_position">请假</td>
-                <td id="Z_responsible">2015.06.11~2015.06.18</td>
-                <td id="Z_time">2015-6-1</td>
-                <td>
-                    <input type="button" name="modify" value="通过" />&nbsp;&nbsp;|&nbsp;
-                    <input type="button" name="delete" value="不通过" />
-                </td>
-            </tr>
-
-            <tr>
-                <td id="Z_Id">09123</td>
-                <td id="Z_name">赵茜</td>
-                <td id="Z_position">出差</td>
-                <td id="Z_responsible">2015.06.11~2015.06.18</td>
-                <td id="Z_time">2015-6-1</td>
+                <td><a onclick="R_onClickJump(this)" name="R2_approvalDetail" style="text-decoration: underline;">09124</a></td>
+                <td><a onclick="R_onClickJump(this)" name="R2_approvalDetail" style="text-decoration: underline;">王武</a></td>
+                <td>请假</td>
+                <td>2015.06.11~2015.06.18</td>
+                <td>2015-6-1</td>
                 <td>
                     <input type="button" name="modify" value="通过" />&nbsp;&nbsp;|&nbsp;
                     <input type="button" name="delete" value="不通过" />

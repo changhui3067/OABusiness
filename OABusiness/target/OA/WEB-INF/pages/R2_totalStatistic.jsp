@@ -14,7 +14,9 @@
 <body>
 
 <div class="right_content">
-
+    <div class="backToR">
+        <p style="font-size:18px;font-weight:bold;margin-left:120px; ">公司总体情况</p>
+    </div>
     <div class="total_data_1">
         <p><span>在职员工数：&nbsp;&nbsp;<a id="num_atWork" href="#">150</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
         </p>

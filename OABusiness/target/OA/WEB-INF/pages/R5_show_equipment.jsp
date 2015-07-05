@@ -13,35 +13,24 @@
 <body>
 
 <div class="right_content">
-    <div id="equipment_list">
+    <div class="e_list">
         <table class="equipment_table">
             <tbody>
             <tr class="top_tr">
-                <th width="60" scope="col">排查部位</th>
-                <th width="60"  scope="col">用到的工具</th>
-                <th width="60"  scope="col">更换的备件</th>
-                <th width="120"  scope="col">故障现象</th>
-                <th width="120"  scope="col">处理方法及过程</th>
-                <th width="120"  scope="col">修理注意事项</th>
-                <th width="120"  scope="col">修理过程图片</th>
-                <th width="80"  scope="col">操作</th>
+                <th width="80" scope="col">排查部位</th>
+                <th width="150" scope="col">用到的工具</th>
+                <th width="150" scope="col">更换的备件</th>
+                <th width="130" scope="col">上次修改时间</th>
+                <th width="80" scope="col">修改人ID</th>
+                <th width="60"  scope="col">更多</th>
             </tr>
             <tr>
-                <td id="Z_Id">部位1</td>
-                <td id="Z_name">工具1，工具2</td>
-                <td id="Z_position">备件1，备件2</td>
-                <td id="Z_responsible">在某某部位出现了不能工作的现象</td>
-                <td id="Z_p">处理办法：1....;2....;3...</td>
-                <td id="Z_time">注意事项：1...;2...;3....</td>
-                <td id="Z_desriptio">
-                    <img src='img/slide_1.jpg' width="100" height="80"/>
-                    <br>
-                    <img src='img/slide_2.jpg' width="100" height="80"/>
-                </td>
-                <td>
-                    <input type="button" name="modify" value="修改" />&nbsp;&nbsp;|&nbsp;
-                    <input type="button" name="delete" value="删除" />
-                </td>
+                <td id="Z_part">部位1</td>
+                <td id="Z_tool">工具1，工具2</td>
+                <td id="Z_backUp">备件1，备件2</td>
+                <td id="Z_time">2015-07-04 18:59</td>
+                <td id="Z_responsible">090123</td>
+                <td id="Z_detail"><a style="text-decoration: underline;" onclick="R_onClickJump(this)" name="R5_equipmentDetail">详情</a></td>
             </tr>
 
 

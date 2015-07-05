@@ -15,10 +15,6 @@
 <body>
 
 <div class="right_content">
-    <div class="backToR">
-        <a onclick="R_onClickJump(this)" name="R3_1main">返回</a>
-    </div>
-    <br>
 
     <div class="metlist">
         <%--<h3 class="headline">信息箱</h3>--%>
@@ -27,19 +23,19 @@
                 <a onclick="R_onClickJump(this)" name="R3_broadDetail">
                     <span class="rec_from">超级管理员甲</span>
                     <h4 class="message_title">这是第一则广播的通知内容</h4></a>
-                <span class="time">5月15日</span>
+                <span class="time">2015-5-15 17:23</span>
             </li>
             <li class="single_message">
                 <a onclick="R_onClickJump(this)" name="R3_broadDetail">
                     <span class="rec_from">一般管理员乙</span>
                     <h4 class="message_title">这第二则广播的通知内容</h4></a>
-                <span class="time">5月16日</span>
+                <span class="time">2015-5-15 17:23</span>
             </li>
             <li class="single_message">
                 <a onclick="R_onClickJump(this)" name="R3_broadDetail">
                     <span class="rec_from">超级管理员丙</span>
                     <h4 class="message_title">这第三则广播的通知内容</h4></a>
-                <span class="time">5月17日</span>
+                <span class="time">2015-5-15 17:23</span>
             </li>
 
         </ul>

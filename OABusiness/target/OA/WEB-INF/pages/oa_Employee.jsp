@@ -19,8 +19,10 @@
     <ul id="ul_2">
       <li ><a onclick="onClickJump(this)" target='main' name='2_1' id='nav_2_1' class="on" title="增加、删除人员" hidefocus="true">增加、删除人员</a></li>
       <li ><a onclick="onClickJump(this)" target='main' name='2_2' id='nav_2_2' title="修、删人员信息" hidefocus="true">修、删人员信息</a></li>
-      <li ><a onclick="onClickJump(this)" target='main' name='2_3' id='nav_2_4' title="日程申请/审批" hidefocus="true">日程申请/审批</a></li>
-      <li ><a onclick="onClickJump(this)" target='main' name='2_4' id='nav_2_5' title="人员信息统计" hidefocus="true">人员信息统计</a></li>
+      <li ><a onclick="onClickJump(this)" target='main' name='2_3' id='nav_2_3' title="日程申请" hidefocus="true">日程申请</a></li>
+      <li ><a onclick="onClickJump(this)" target='main' name='2_4' id='nav_2_4' title="日程审批" hidefocus="true">日程审批</a></li>
+      <li ><a onclick="onClickJump(this)" target='main' name='2_5' id='nav_2_5' title="人员信息统计" hidefocus="true">人员信息统计</a></li>
+
     </ul>
 
   </div>

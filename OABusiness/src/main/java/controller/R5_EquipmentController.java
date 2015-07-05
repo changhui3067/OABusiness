@@ -26,4 +26,10 @@ public class R5_EquipmentController {
         return "R5_downloadTable";
     }
 
+    @RequestMapping(value = "/equipmentDetail", method = RequestMethod.GET)
+    public String getEquipmentDetail(ModelMap model){
+        return "R5_equipmentDetail";
+    }
+
+
 }

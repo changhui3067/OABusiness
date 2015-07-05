@@ -17,12 +17,8 @@
 
 <div class="right_content">
 
-    <p>说明：这页的根据点进来的部门进行显示各个不同部门的人员信息</p>
-    <br>
-    <br>
-
     <div class="backToR">
-        <a onclick="R_onClickJump(this)" name="R2_Statistic">返回</a>
+        <a style="text-decoration: underline;color:gray;" onclick="R_onClickJump(this)" name="R2_Statistic">返回</a>
     </div>
     <div class="total_data_1">
         <p><span>在职员工数：&nbsp;&nbsp;<a id="num_atWork" href="#">30</a></span>&nbsp;&nbsp;&nbsp;&nbsp;

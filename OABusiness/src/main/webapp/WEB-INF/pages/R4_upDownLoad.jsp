@@ -15,22 +15,33 @@
 <div class="right_content">
     <div class="list_things">
         <ul class='list-none metlist'>
-            <li class='list'><span>
-                <input type="button" name="upload" value="上传" />&nbsp;&nbsp;|&nbsp;
-                <input type="button" name="download" value="下载" />
-            </span>
-                <a onclick="R_onClickJump(this)" name="R4_fileList" title='公共文件夹' target='_self'>公共文件夹</a></li>
-            <li class='list'><span>
-                <input type="button" name="upload" value="上传" />&nbsp;&nbsp;|&nbsp;
-                <input type="button" name="download" value="下载" />
+            <li class='list'>
+                <span>
+                    <input type="button" name="upload" value="上传" />
+                </span>
+                <div class="fileIcon">
+                    <img src="img/file_Icon.png" width="22" height="22">
+                </div>
+                <a onclick="R_onClickJump(this)" name="R4_fileList" title='公共文件夹' target='_self'>公共文件夹</a>
+            </li>
 
-            </span>
-                <a onclick="R_onClickJump(this)" name="R4_fileList" title='部门级文件夹' target='_self'>部门级文件夹</a></li>
-            <li class='list'><span>
-                <input type="button" name="upload" value="上传" />&nbsp;&nbsp;|&nbsp;
-                <input type="button" name="download" value="下载" />
+            <li class='list'>
+                <span>
+                    <input type="button" name="upload" value="上传" />
+                </span>
+                <div class="fileIcon">
+                    <img src="img/file_Icon.png" width="22" height="22">
+                </div>
+                <a onclick="R_onClickJump(this)" name="R4_fileList" title='部门级文件夹' target='_self'>部门级文件夹</a>
+            </li>
 
-            </span>
+            <li class='list'>
+                <span>
+                    <input type="button" name="upload" value="上传" />
+                </span>
+                <div class="fileIcon">
+                    <img src="img/file_Icon.png" width="22" height="22">
+                </div>
                 <a onclick="R_onClickJump(this)" name="R4_fileList" title='管理员级文件夹' target='_self'>管理员级文件夹</a></li>
            </ul>
     </div>

@@ -14,17 +14,77 @@
 
 <div class="right_content">
     <div class="backToR">
-        <a onclick="R_onClickJump(this)" name="R4_1main">返回</a>
+        <a style="text-decoration: underline;color:gray;" onclick="R_onClickJump(this)" name="R4_1main">返回</a>
     </div>
     <div class="list_things">
             <div id="newslist">
                 <ul class='list-none metlist'>
-                    <li class='list top'><span>[2012-07-17]</span><a href='#' title='' target='_self'>1.doc</a></li>
-                    <li class='list '><span>[2012-07-16]</span><a href='#' title='' target='_self'>2.pdf</a></li>
-                    <li class='list '><span>[2012-07-16]</span><a href='#' title='' target='_self'>3.xsl</a></li>
-                    <li class='list '><span>[2012-07-16]</span><a href='#' title='' target='_self'>4.ppt</a></li>
-                    <li class='list '><span>[2012-07-16]</span><a href='#' title='' target='_self'>5.jpg</a></li>
-                    <li class='list '><span>[2012-07-16]</span><a href='#' title='' target='_self'>6.png</a></li>
+                    <li class='list top'>
+                        <span>
+                            <input type="button" name="download" value="下载" />
+                        </span>
+                        <span>[2012-07-17]</span>
+                        <div class="fileIcon">
+                            <img src="img/fileIcon3.png" width="15" height="20">
+                        </div>
+
+                        <a href='#' title='' target='_self'>1.doc</a>
+                    </li>
+
+                    <li class='list '>
+                        <span>
+                            <input type="button" name="download" value="下载" />
+                        </span>
+                        <span>[2012-07-16]</span>
+                        <div class="fileIcon">
+                            <img src="img/fileIcon3.png" width="15" height="20">
+                        </div>
+                        <a href='#' title='' target='_self'>2.pdf</a>
+                    </li>
+
+                    <li class='list '>
+                        <span>
+                            <input type="button" name="download" value="下载" />
+                        </span>
+                        <span>[2012-07-16]</span>
+                        <div class="fileIcon">
+                            <img src="img/fileIcon3.png" width="15" height="20">
+                        </div>
+                        <a href='#' title='' target='_self'>3.xsl</a>
+                    </li>
+
+                    <li class='list '>
+                        <span>
+                            <input type="button" name="download" value="下载" />
+                        </span>
+                        <span>[2012-07-16]</span>
+                        <div class="fileIcon">
+                            <img src="img/fileIcon3.png" width="15" height="20">
+                        </div>
+                        <a href='#' title='' target='_self'>4.ppt</a>
+                    </li>
+
+                    <li class='list '>
+                        <span>
+                            <input type="button" name="download" value="下载" />
+                        </span>
+                        <span>[2012-07-16]</span>
+                        <div class="fileIcon">
+                            <img src="img/fileIcon3.png" width="15" height="20">
+                        </div>
+                        <a href='#' title='' target='_self'>5.jpg</a>
+                    </li>
+
+                    <li class='list '>
+                        <span>
+                            <input type="button" name="download" value="下载" />
+                        </span>
+                        <span>[2012-07-16]</span>
+                        <div class="fileIcon">
+                            <img src="img/fileIcon3.png" width="15" height="20">
+                        </div>
+                        <a href='#' title='' target='_self'>6.png</a>
+                    </li>
 
                 </ul>
             </div>

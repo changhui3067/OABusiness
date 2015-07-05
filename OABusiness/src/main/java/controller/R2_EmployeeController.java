@@ -21,9 +21,9 @@ public class R2_EmployeeController {
         return "R2_modify_Employee";
     }
 
-    @RequestMapping(value = "/requestOrApproval", method = RequestMethod.GET)
+    @RequestMapping(value = "/request", method = RequestMethod.GET)
     public String getRequestAndApproval(ModelMap model){
-        return "R2_request_approval";
+        return "R2_request";
     }
 
     @RequestMapping(value = "/Statistic", method = RequestMethod.GET)
@@ -36,8 +36,23 @@ public class R2_EmployeeController {
         return "R2_approval";
     }
 
+    @RequestMapping(value = "/approvalHistory", method = RequestMethod.GET)
+    public String getApprovalHistory(ModelMap model){
+        return "R2_approvalHistory";
+    }
+
     @RequestMapping(value = "/totalStatistic", method = RequestMethod.GET)
-    public String getTotalStatisitic(ModelMap model){
+     public String getTotalStatisitic(ModelMap model){
         return "R2_totalStatistic";
+    }
+
+    @RequestMapping(value = "/approvalDetail", method = RequestMethod.GET)
+    public String getApprovalDetail(ModelMap model){
+        return "R2_approvalDetail";
+    }
+
+    @RequestMapping(value = "/aHistoryDetail", method = RequestMethod.GET)
+    public String getApprovalHistoryDetail(ModelMap model){
+        return "R2_aHistoryDetail";
     }
 }

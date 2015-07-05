@@ -112,7 +112,7 @@ span.keylist {
 	position:absolute;
 	right:0px;
 	top:0px;
-	padding-top: 30px;
+	margin-top: 18px;
 	height:80px;
 	text-align:right;
 }
@@ -2371,6 +2371,7 @@ div.showimg {
 }
 
 .input_button{
+	float:left;
 	margin-left:100px;
 	background: #eee;
 	border:1px solid #ddd;
@@ -2384,6 +2385,16 @@ div.showimg {
 }
 
 /* 装备录入*/
+.e_list{
+	width: 100%;
+	float: left;
+}
+.backToR {
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+}
+
 textarea.Z_description {
 	width: 87.8%;
 	height: 120px;
@@ -2396,8 +2407,9 @@ input#Z_save_Button {
 
 table.equipment_table {
 	border: 1px solid #000;
-	margin-top:20px;
+	margin-top:10px;
 	margin-left:50px;
+	float: left;
 }
 
 table.equipment_table tr{
@@ -2431,6 +2443,20 @@ table.equipment_table td{
 .top_tr{
 	background: #C8C6C6;
 }
+#reason_text{
+	height:100px;
+	width:50%;
+}
+.text1{
+	white-space: nowrap;
+	padding: 8px 0px 8px 0px;
+	line-height: 1.5;
+	font-size: 12px;
+	text-align: left;
+	width: 130px;
+	color: #000;
+}
+
 /* 2-4  */
 .ZG_status_off {
 	background: url(../img/holiday.png) no-repeat left 9px;
@@ -2446,7 +2472,7 @@ table.equipment_table td{
 
 #total_Depart{
 	float:left;
-	margin-top: -10px;
+	margin-top: 0px;
 }
 
 #total_Depart a{
@@ -2455,7 +2481,7 @@ table.equipment_table td{
 
 .total_data_1 {
 	margin-left: 10px;
-	margin-top: 7px;
+	margin-top: 45px;
 	position:fixed;
 	z-index:1000;
 }
@@ -2465,6 +2491,14 @@ table.equipment_table td{
 	background: url(../img/dt-0.gif) no-repeat left 19px;
 	font: 12px/1.8 Tahoma,Verdana,'Simsun';
 	color: #333;
+}
+.backkk{
+	float:left;
+	width:30%;
+}
+.R2_Search{
+	float:right;
+	margin-right: 95px;
 }
 
 /* 3-1*/
@@ -2482,11 +2516,19 @@ table.equipment_table td{
 .time {
 	float: right;
 	font-weight: 600;
-	/*padding: 0.6em 0em;*/
 	margin-right: 110px;
 	font-size: 0.75em;
 	line-height: 1.8em;
 	color: #414A5A;
+}
+.message_title{
+	width:55%;
+	float:left;
+}
+
+.metlist {
+	float: left;
+	width: 100%;
 }
 
 
@@ -2595,7 +2637,7 @@ table.equipment_table td{
 	overflow:hidden;
 }
 .list_things li {
-	padding: 6px 10px;
+	padding: 9px 10px;
 	background: url(../img/dt-0.gif) no-repeat left 19px;
 	font: 12px/1.8 Tahoma,Verdana,'Simsun';
 	color: #333;
@@ -2604,6 +2646,10 @@ table.equipment_table td{
 	float:right;
 	color:#999;
 	margin-right: 20px;
+}
+.fileIcon{
+	float:left;
+	margin-right: 5px;
 }
 
 /*   4-2  */
@@ -2615,6 +2661,15 @@ table.equipment_table td{
 /* 5-2 */
 
 /*****************From Freyja 2015-06-13***************************/
+.equipment_img_zone{
+	margin-top:10px;
+}
+.equipOperation{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+
 .right_content_wrap{
 	width: 80%;
 	margin:0 auto;
@@ -2626,6 +2681,7 @@ table.equipment_table td{
 }
 
 #R5_printdata{
+	float:left;
 	margin-left: 50px;
 	margin-top: 20px;
 	padding-top: 10px;

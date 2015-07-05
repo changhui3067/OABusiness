@@ -35,4 +35,16 @@ public class R3_MessageController {
     public String getBroadcastDetail(ModelMap model){
         return "R3_broadcastDetail";
     }
+
+    @RequestMapping(value = "/broadcastHistory", method = RequestMethod.GET)
+    public String getBroadcastHistory(ModelMap model){
+        return "R3_broadcastHistory";
+    }
+
+    @RequestMapping(value = "/broadDetailHistory", method = RequestMethod.GET)
+    public String getBroadcastHistoryDetail(ModelMap model){
+        return "R3_broadcastDetailHistory";
+    }
+
+
 }

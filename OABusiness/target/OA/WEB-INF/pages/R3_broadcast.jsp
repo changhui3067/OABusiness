@@ -13,9 +13,6 @@
 <body>
 
 <div class="right_content">
-    <div class="approval_bar" id="a_bar">
-        <span>当前有&nbsp;&nbsp;<a id="num_approval" onclick="R_onClickJump(this)" name="R3_broadList">3</a>&nbsp;&nbsp;广播通知</span>
-    </div>
 
     <div id="request_Time">
         <h1>您可以发布一条广播通知</h1>

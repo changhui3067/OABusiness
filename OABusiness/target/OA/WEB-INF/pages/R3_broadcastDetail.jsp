@@ -19,7 +19,7 @@
 
 <div class="right_content">
   <div class="backToR">
-    <a onclick="R_onClickJump(this)" name="R3_broadList">返回</a>
+    <a style="text-decoration: underline;color:gray;" onclick="R_onClickJump(this)" name="R3_broadList">返回</a>
   </div>
   <div class="right_content_wrap">
 

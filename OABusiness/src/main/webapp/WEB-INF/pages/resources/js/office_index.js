@@ -34,9 +34,12 @@ function  onClickJump(param){
             xmlhttp.open("GET","/modifyEmployee",true);
             break;
         case "2_3":
-            xmlhttp.open("GET","/requestOrApproval",true);
+            xmlhttp.open("GET","/request",true);
             break;
         case "2_4":
+            xmlhttp.open("GET","/approval_List",true);
+            break;
+        case "2_5":
             xmlhttp.open("GET","/totalStatistic",true);
             break;
         case "3_1":
@@ -46,7 +49,10 @@ function  onClickJump(param){
             xmlhttp.open("GET","/nowMessage",true);
             break;
         case "3_3":
-            xmlhttp.open("GET","/deliverFile",true);
+            xmlhttp.open("GET","/broadcastList",true);
+            break;
+        case "3_4":
+            xmlhttp.open("GET","/broadcastHistory",true);
             break;
         case "4_1":
             xmlhttp.open("GET","/upDownLoad",true);
@@ -173,10 +179,10 @@ function  R_onClickJump(param){
         document.getElementById("min").innerHTML = response;
     };
     switch(page){
-        case "R2_3main":
-            xmlhttp.open("GET","/requestOrApproval",true);xmlhttp.send();
+        case "R2_approvalHistory":
+            xmlhttp.open("GET","/approvalHistory",true);xmlhttp.send();
             break;
-        case "R2_aList":
+        case "R2_approvalList":
             xmlhttp.open("GET","/approval_List",true);xmlhttp.send();
             break;
         case "R2_total_Statistic":
@@ -185,7 +191,12 @@ function  R_onClickJump(param){
         case "R2_Statistic":
             xmlhttp.open("GET","/totalStatistic",true);xmlhttp.send();
             break;
-
+        case "R2_approvalDetail":
+            xmlhttp.open("GET","/approvalDetail",true);xmlhttp.send();
+            break;
+        case "R2_aHistoryDetail":
+            xmlhttp.open("GET","/aHistoryDetail",true);xmlhttp.send();
+            break;
         case "R3_1main":
             xmlhttp.open("GET","/broadcast",true);xmlhttp.send();
             break;
@@ -195,13 +206,26 @@ function  R_onClickJump(param){
         case "R3_broadDetail":
             xmlhttp.open("GET","/broadcastDetail",true);xmlhttp.send();
             break;
+        case "R3_broadDetailHistory":
+            xmlhttp.open("GET","/broadDetailHistory",true);xmlhttp.send();
+            break;
+        case "R3_broadcastHistory":
+            xmlhttp.open("GET","/broadcastHistory",true);xmlhttp.send();
+            break;
+
         case "R4_fileList":
             xmlhttp.open("GET","/fileList",true);xmlhttp.send();
             break;
         case "R4_1main":
             xmlhttp.open("GET","/upDownLoad",true);xmlhttp.send();
-
             break;
+        case "R5_equipmentDetail":
+            xmlhttp.open("GET","/equipmentDetail",true);xmlhttp.send();
+            break;
+        case "R5_showEquipment":
+            xmlhttp.open("GET","/showEquipment",true);xmlhttp.send();
+            break;
+
         default:
             break;
     }

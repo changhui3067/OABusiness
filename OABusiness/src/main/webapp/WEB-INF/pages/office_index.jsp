@@ -25,9 +25,19 @@
 				<div class="top-r-box">
 					<div class="top-right-boxr">
 						<div class="top-r-t">
-							您好 <a onclick="onClickJumpMenu(this)" name="personal_Zone" id="mydata" class='tui' style="text-decoration:underline;">余成东</a>
-							<span>-</span>
-							<a href="#" id="outhome" title="退出" class='tui'>退出</a>
+							<p>
+								您好 <a onclick="onClickJumpMenu(this)" name="personal_Zone" id="mydata" class='tui' style="text-decoration:underline;">余成东</a>
+								<span>-</span>
+								<a href="#" id="outhome" title="退出" class='tui' style="text-decoration:underline;">退出</a>
+							</p>
+
+							<P>
+								您当前有
+								<span>
+									<a onclick="onClickJumpMenu(this)" name="nav_3" style="text-decoration:underline; font-size:16px;">3</a>
+								</span>
+								条消息
+							</P>
 						</div>
 					</div>
 					<div class="nav">
