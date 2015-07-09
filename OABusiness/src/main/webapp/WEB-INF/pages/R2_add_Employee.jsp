@@ -30,26 +30,49 @@
             </tr>
 
             <tr>
+                <td class="text"><span class="bi_tian">*</span>性别：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td class="input">
+                    <input type="radio" name="gender" value="男" checked="checked" />男
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" value="女" />女
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text"><span class="bi_tian">*</span>婚姻状况：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td class="input">
+                    <input type="radio" name="marriage" value="已婚" checked="checked" />已婚
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="marriage" value="未婚" />未婚
+                </td>
+            </tr>
+
+            <tr>
                 <td class="text"><span class="bi_tian">*</span>管理权限：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                 <td class="input">
-                    <input name="met_weburl" type="text" class="text" id="ZG_level"/>
+                    <select name="level">
+                        <option value="1">超级管理员</option>
+                        <option value="2">一般管理员</option>
+                        <option value="3">普通用户</option>
+                    </select>
                 </td>
             </tr>
 
             <tr>
                 <td class="text"><span class="bi_tian">*</span>所属部门：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                 <td class="input">
-                    <input name="met_weburl" type="text" class="text" id="Z_department"/>
+                    <select name="department">
+                        <option value="1">机电部门</option>
+                        <option value="2">航海部门</option>
+                    </select>
                 </td>
             </tr>
 
-            <tr>
-                <td class="text"></td>
-                <td class="submit">
-                    <input type="submit" id="Z_save_Button" name="submit1" value="录入" class="submit" onclick="onClickSubmit()" />
-                </td>
-            </tr>
         </table>
+
+         <div class="input_button2">
+             <input type="button" value="提交" id="submit_button" name="submitButton" class="loginButton">
+         </div>
     </div>
 
 </div>

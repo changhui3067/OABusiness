@@ -29,15 +29,13 @@
 
 <div class="nav_background">
 	<div class="nav_div">
-		<nav>
+		<div class="nav">
 			<ul class="list-none">
-			<li style='width:138px;' class='navdown'><a href='/' class='nav'><span>首页</span></a></li>
-			<li class="line"></li>
-			<li style='width:138px;' ><a href='/login' class='hover-none nav'><span>在线办公</span></a></li>
-			<li class="line"></li>
-			
+				<li style='width:138px;' class='navdown'><a href='/' class='nav'><span>首页</span></a></li>
+				<li class="line"></li>
+				<li style='width:138px;' ><a href="/login" class='hover-none nav'><span>在线办公</span></a></li>
 			</ul>
-		</nav>
+		</div>
 	</div>
 </div>
 
@@ -113,8 +111,8 @@
 	<h3 class='title myCorner' data-corner='top 5px'>其他系统链接</h3>
 	<div class="active clear listel contour-2">
 		<ol class='list-none metlist'>
+			<li class='list '><a href= '/equip_Index' >装备后勤保障系统</a></li>
 			<li class='list top'><a href= '#' >训练系统</a></li>
-			<li class='list '><a href= '#' >装备后勤保障系统</a></li>
 			<li class='list '><a href='#' >其他系统1</a></li>
 			<li class='list '><a href= '#' >其他系统2</a></li>
 			<li class='list '><a href= '#' >其他系统3</a></li>

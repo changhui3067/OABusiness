@@ -33,7 +33,7 @@
             </div>
             <div class="chatting">
                 <div class="chat_input">
-                    <textarea rows="9" cols="105" name="editor01" id="G_content">你好吗？</textarea>
+                    <textarea name="editor01" id="chat_text">你好吗？</textarea>
                 </div>
                 <div class="chat_bottom">
                     <span>

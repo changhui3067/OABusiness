@@ -30,7 +30,7 @@
                 <td id="Z_backUp">备件1，备件2</td>
                 <td id="Z_time">2015-07-04 18:59</td>
                 <td id="Z_responsible">090123</td>
-                <td id="Z_detail"><a style="text-decoration: underline;" onclick="R_onClickJump(this)" name="R5_equipmentDetail">详情</a></td>
+                <td id="Z_detail"><a style="text-decoration: underline;color:blue"; onclick="R_onClickJump(this)" name="R5_equipmentDetail">详情</a></td>
             </tr>
 
 

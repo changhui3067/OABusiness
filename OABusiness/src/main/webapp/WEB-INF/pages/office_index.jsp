@@ -45,7 +45,7 @@
 							<li id="metnav_1" class="list">
 								<a onclick="onClickJumpMenu(this)" name="nav_1" class="onnav" hidefocus="true">
 									<span class="c1"></span>
-									信息交流
+									新闻公告
 								</a>
 							</li>
 							<li id="metnav_2" class="list">
@@ -66,12 +66,12 @@
 									文档管理
 								</a>
 							</li>
-							<li id="metnav_5" class="list">
+<%--							<li id="metnav_5" class="list">
 								<a onclick="onClickJumpMenu(this)" name="nav_5"  hidefocus="true">
 									<span class="c5"></span>
 									装备库
 								</a>
-							</li>
+							</li>--%>
 							<li id="metnav_6" class="list">
 								<a onclick="onClickJumpMenu(this)" name="nav_6"  hidefocus="true">
 									<span class="c6"></span>

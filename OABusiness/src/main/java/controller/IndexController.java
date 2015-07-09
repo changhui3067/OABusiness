@@ -60,4 +60,9 @@ public class IndexController {
     public String getLogin(ModelMap model){
         return "login";
     }
+
+    @RequestMapping(value = "/equip_Index", method = RequestMethod.GET)
+    public String getEquipIndex(ModelMap model){
+        return "equipment_index";
+    }
 }

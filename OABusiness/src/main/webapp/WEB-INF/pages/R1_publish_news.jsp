@@ -30,7 +30,6 @@
             <tr>
                 <td class="text"><span class="bi_tian">*</span>添加附件：</td>
                 <td class="input upload">
-                    <input name="met_logo" type="text" class="text" />
                     <input name="met_upsql" type="file" id="file_upload" />
                     <!--<script type='text/javascript'>
                         $(document).ready(function(){

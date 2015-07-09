@@ -31,15 +31,13 @@
 
 <div class="nav_background">
   <div class="nav_div">
-    <nav>
+    <div class="nav">
       <ul class="list-none">
         <li style='width:138px;' ><a href='/' class='nav'><span>首页</span></a></li>
         <li class="line"></li>
-        <li style='width:138px;' ><a href='/onlineBusiness' class='hover-none nav'><span>在线办公</span></a></li>
-        <li class="line"></li>
-
+        <li style='width:138px;' ><a href='/login' class='hover-none nav'><span>在线办公</span></a></li>
       </ul>
-    </nav>
+    </div>
   </div>
 </div>
 
@@ -47,8 +45,8 @@
   <div class="sb_nav">
     <h3 class='title myCorner' data-corner='top 5px'>其他系统链接</h3>
     <div class="active" id="sidebar" data-csnow="2" data-class3="0" data-jsok="2">
+      <dl class="list-none navnow"><dt><a href='#'><span>装备故障库</span></a></dt></dl>
       <dl class="list-none navnow"><dt><a href='#'  ><span>训练系统</span></a></dt></dl>
-      <dl class="list-none navnow"><dt><a href='#'><span>装备后勤保障系统</span></a></dt></dl>
       <dl class="list-none navnow"><dt><a href='#'  ><span>装备后勤保障系统</span></a></dt></dl>
       <dl class="list-none navnow"><dt><a href='#'  ><span>其他系统1</span></a></dt></dl>
       <dl class="list-none navnow"><dt><a href='#'  ><span>其他系统2</span></a></dt></dl>

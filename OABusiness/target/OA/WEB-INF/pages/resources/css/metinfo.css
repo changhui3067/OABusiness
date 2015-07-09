@@ -143,14 +143,14 @@ td.submint{ padding:10px;}
 .top-nav li.b{ position:absolute; bottom:0px; right:0px;}
 .top-nav li.t span{ padding:0px 5px; font-size:10px; color:#bbb;}
 .top-logo{ min-height:90px; _height:90px;}
-nav{height:40px; overflow:hidden;}
-nav ul li{ float:left; text-align:center; height:40px; line-height:40px; overflow:hidden; background:#007ac7 url(/img/dt-3.gif) repeat-x; }
-nav ul li a{ color:#fff; font-size:14px;}
-nav ul li a:hover{ color:#fff;}
-nav ul li.line{ width:0px; height:40px; padding:0px; border-left:1px solid #0073bc; border-right:1px solid #0389de;}
-nav ul li.hover,nav ul li.navdown{ background:url(/img/dt-4.gif) repeat-x;}
-nav ul li.hover a,nav ul li.navdown a{ color:#444;}
-nav ul li.hover a:hover,nav ul li.navdown a:hover{ color:#444;}
+.nav{height:40px; overflow:hidden;}
+.nav ul li{ float:left; text-align:center; height:40px; line-height:40px; overflow:hidden; background:#007ac7 url(/img/dt-3.gif) repeat-x; }
+.nav ul li a{ color:#fff; font-size:14px;}
+.nav ul li a:hover{ color:#fff;}
+.nav ul li.line{ width:0px; height:40px; padding:0px; border-left:1px solid #0073bc; border-right:1px solid #0389de;}
+.nav ul li.hover,.nav ul li.navdown{ background:url(/img/dt-4.gif) repeat-x;}
+.nav ul li.hover a,.nav ul li.navdown a{ color:#444;}
+.nav ul li.hover a:hover,.nav ul li.navdown a:hover{ color:#444;}
 .met_flash{  font-size:0px; overflow:hidden;/*margin-top:10px;*/} 
 .met_flash ul{ margin:0px; padding:0px;} 
 
@@ -159,7 +159,7 @@ nav ul li.hover a:hover,nav ul li.navdown a:hover{ color:#444;}
 .case{ float:right; width:290px; margin-top:10px; overflow:hidden;height:262px;background:#fff;}
 .style-1 h3.title span{ float:left; background:url(/img/dt-5.gif) repeat-x; height:32px; line-height:32px; padding:0px 25px; color:#fff; font-weight:normal; font-size:14px;}
 .style-1 h3.title  a.more{ float:right; width:39px; height:11px; line-height:1000px; overflow:hidden; background:url(/img/more.gif); margin:10px 10px 0px 0px;}
-.style-1 .active{ background:#fff; padding:10px;}
+.style-1 .active{ background:#fff; padding:10px;height:240px;}
 .style-2 h3.title { background:url(/img/dt-6.gif) repeat-x; height:32px; line-height:32px; padding-left:15px; color:#fff; font-weight:normal; font-size:14px; position:relative;}
 .style-2 h3.title a.more{ position:absolute; right:10px; top:0px; color:#fff; font-size:12px;}
 .style-2 .active{ background:#fff; padding:10px;height:240px;}

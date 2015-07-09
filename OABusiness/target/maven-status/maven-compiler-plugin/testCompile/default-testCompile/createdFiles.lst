@@ -1,3 +1,4 @@
 service\TestMap.class
 service\GetNewsServiceTest.class
+com\springapp\mvc\AppTests.class
 service\GetAllNewsServiceTest.class

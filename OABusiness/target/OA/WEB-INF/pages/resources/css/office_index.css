@@ -2318,6 +2318,14 @@ div.showimg {
 .nowawecs{ font-weight:bold; color:#f00!important; font-size:14px;}
 
 
+/*  login-part*/
+input.loginButton {
+	width: 100px;
+	background: #4A94F0;
+	height: 20px;
+	border: 1px solid #aaa;
+}
+
 /* 0 Personal*/
 #detail_Info{
 	padding-top: 20px;
@@ -2370,18 +2378,10 @@ div.showimg {
 	margin: 2.0em 0 2.5em 2em;
 }
 
-.input_button{
+.input_button1{
 	float:left;
-	margin-left:100px;
-	background: #eee;
-	border:1px solid #ddd;
-	width: 90px;
+	padding-left: 75px;
 	text-align: center;
-}
-.input_button a{
-
-	text-decoration: none;
-	color:#000;
 }
 
 /* 装备录入*/
@@ -2420,6 +2420,13 @@ table.equipment_table td{
 }
 
 /*  日程申请、审批  */
+
+.input_button2 {
+	float: left;
+	padding-left: 175px;
+	text-align: center;
+	margin-top: 20px;
+}
 .approval_bar{
 	width:530px;
 	margin-left:40px;
@@ -2614,7 +2621,10 @@ table.equipment_table td{
 	width: 238px;
 }
 
-
+#chat_text {
+	width: 648px;
+	height: 105px;
+}
 
 /*  3-3   */
 .fileDeliver_div{

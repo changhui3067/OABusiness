@@ -18,15 +18,15 @@
         <h1>提交您的日程申请</h1>
         <br>
         <div class="request_Table" name="myform"  target="_self">
-            <input name="action" type="hidden" value="modify" />
             <table cellpadding="2" cellspacing="1" class="table">
-
                 <tr>
                     <td class="text"><span class="bi_tian">*</span>类型：&nbsp;&nbsp;&nbsp;</td>
                     <td class="input">
                         <input type="radio" name="identity" value="出差" checked="checked" />出差
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <input type="radio" name="identity" value="请假" />请假
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="identity" value="休假" />休假
                     </td>
                 </tr>
                 <tr>
@@ -57,12 +57,13 @@
                         <textarea id="reason_text" rows="5" cols="50" name="editor01">请填写详细的申请理由</textarea>
                 </tr>
 
-                <tr>
-                    <td>
-                        <span class="input_button"><a>提交</a></span>
-                    </td>
-                </tr>
             </table>
+
+            <div class="input_button2">
+                <a href="/onlineBusiness"><input type="button" value="提交"
+                                                 id="submit_button" name="submitButton" class="loginButton">
+                </a>
+            </div>
         </div>
 
     </div>

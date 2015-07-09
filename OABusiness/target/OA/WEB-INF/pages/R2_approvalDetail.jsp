@@ -81,10 +81,12 @@
 
         <br>
 
-        <p>
-            <span class="input_button"><a>通过请求</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <span class="input_button"><a>不通过请求</a></span>
-        </p>
+        <div class="input_button2">
+            <input type="button" value="通过" id="pass_button" name="passButton" class="loginButton">
+            <input type="button" value="不通过" id="noPass_button" name="noPassButton" class="loginButton">
+
+        </div>
+
     </div>
 
 </div>

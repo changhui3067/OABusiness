@@ -120,6 +120,8 @@ function  onClickJumpMenu(param){
     };
     switch(page){
         case "personal_Zone":
+            //**********By Freyja 2015-07-06
+            $("#topnav a").removeClass("onnav");
             xmlhttp.open("GET","/personalZone",true);
             break;
 
@@ -130,6 +132,9 @@ function  onClickJumpMenu(param){
             xmlhttp.open("GET","/oaEmployee",true);
             break;
         case "nav_3":
+            //**********By Freyja 2015-07-06
+            /*$("#topnav a").removeClass("onnav");*/
+            /*$("#metnav_3 a").addClass("onnav");*/
             xmlhttp.open("GET","/oaMessage",true);
             break;
         case "nav_4":
@@ -231,3 +236,4 @@ function  R_onClickJump(param){
     }
 
 }
+

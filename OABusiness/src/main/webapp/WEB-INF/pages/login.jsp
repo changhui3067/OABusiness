@@ -36,17 +36,16 @@
 		<div id="content">
 			<div class="wrap">
 				<div id="login_frame">
-				<div class="input_text">
-					<label for="username">账&nbsp;&nbsp;户</label>
-					<input type="text" id="L_name" name="username" class="text" size="20">
-				</div>
-				<div class="input_text">
-					<label for="password">密&nbsp;&nbsp;码</label>
-					<input type="password" id="L_pwd" name="password" class="text" size="20">
-				</div>
-				<div class="input_button">
-					<%--<button type="submit" class="button positive" ><a href=/onlineBusiness"></a>登 录</button>--%>
-						<a href="/onlineBusiness">登录</a>
+					<div class="input_text">
+						<label for="username">账&nbsp;&nbsp;户</label>
+						<input type="text" id="L_name" name="username" class="text" size="20">
+					</div>
+					<div class="input_text">
+						<label for="password">密&nbsp;&nbsp;码</label>
+						<input type="password" id="L_pwd" name="password" class="text" size="20">
+					</div>
+				<div class="input_button1">
+					<input type="button" value="登录" onclick="onClickSubmit()" id="login_button" name="loginButton" class="loginButton">
 				</div>
 			</div>
 			</div>

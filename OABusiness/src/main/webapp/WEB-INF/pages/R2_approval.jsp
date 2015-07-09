@@ -39,8 +39,7 @@
                 <td id="Z_responsible">2015.06.11~2015.06.18</td>
                 <td id="Z_time">2015-6-1</td>
                 <td>
-                    <input type="button" name="modify" value="通过" />&nbsp;&nbsp;|&nbsp;
-                    <input type="button" name="delete" value="不通过" />
+                    <a onclick="R_onClickJump(this)" name="R2_approvalDetail" style="text-decoration: underline;color:blue";>详情</a>
                 </td>
             </tr>
 
@@ -51,8 +50,7 @@
                 <td>2015.06.11~2015.06.18</td>
                 <td>2015-6-1</td>
                 <td>
-                    <input type="button" name="modify" value="通过" />&nbsp;&nbsp;|&nbsp;
-                    <input type="button" name="delete" value="不通过" />
+                    <a onclick="R_onClickJump(this)" name="R2_approvalDetail" style="text-decoration: underline;color:blue";>详情</a>
                 </td>
             </tr>
 
