@@ -19,11 +19,13 @@
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
             var result=xmlhttp.responseText;
-            alert(result);
-            location.reload(true);
+            if(result=="success"){
+                location.href="/onlineBusiness";
+            }
+
     }
     };
-    xmlhttp.open("POST","/publishNews?name="+name+"&pwd="+pwd,true);
+    xmlhttp.open("POST","/login?userName="+name+"&pwd="+pwd,true);
     xmlhttp.send();
 }
 

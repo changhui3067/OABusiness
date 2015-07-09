@@ -44,9 +44,8 @@
 					<label for="password">密&nbsp;&nbsp;码</label>
 					<input type="password" id="L_pwd" name="password" class="text" size="20">
 				</div>
-				<div class="input_button">
-					<%--<button type="submit" class="button positive" ><a href=/onlineBusiness"></a>登 录</button>--%>
-						<a href="/onlineBusiness">登录</a>
+				<div class="input_button"  >
+					<input type="button" value="登录" onclick="onClickSubmit()" id="login_button" name="loginButton" class="loginButton">
 				</div>
 			</div>
 			</div>

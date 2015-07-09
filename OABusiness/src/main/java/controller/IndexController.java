@@ -56,7 +56,7 @@ public class IndexController {
         return "slide_4";
     }
 
-    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    @RequestMapping(value = "/loginPage", method = RequestMethod.GET)
     public String getLogin(ModelMap model){
         return "login";
     }

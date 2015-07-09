@@ -1,18 +1,22 @@
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\service\GetAllNewsService.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\XuanchuanController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\R2_EmployeeController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\R6_OtherFunctionsController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\Dao\model\News.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\R4_FileController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\OnlineBusinessController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\Dao\dao\NewsMapper.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\TongzhiController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\OAController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\R3_MessageController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\IndexController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\R5_EquipmentController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\service\AddNewsService.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\PublishNewsController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\service\GetNewsService.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\R7_SafetyController.java
-E:\GitHub Local\OABusiness\OABusiness\src\main\java\controller\ShowNewsController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\service\GetNewsService.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\Dao\model\News.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\OAController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\R3_MessageController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\service\LoginService.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\Dao\dao\NewsMapper.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\Dao\model\User.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\XuanchuanController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\OnlineBusinessController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\service\AddNewsService.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\PublishNewsController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\service\GetAllNewsService.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\R2_EmployeeController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\Dao\dao\UserMapper.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\LoginController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\TongzhiController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\R5_EquipmentController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\R4_FileController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\R7_SafetyController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\IndexController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\ShowNewsController.java
+C:\Users\Administrator\Desktop\OA项目\SourceCode\0.5\OABusiness\src\main\java\controller\R6_OtherFunctionsController.java

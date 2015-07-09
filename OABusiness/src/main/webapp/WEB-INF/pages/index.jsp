@@ -33,7 +33,7 @@
 			<ul class="list-none">
 			<li style='width:138px;' class='navdown'><a href='/' class='nav'><span>首页</span></a></li>
 			<li class="line"></li>
-			<li style='width:138px;' ><a href='/login' class='hover-none nav'><span>在线办公</span></a></li>
+			<li style='width:138px;' ><a href='/loginPage' class='hover-none nav'><span>在线办公</span></a></li>
 			<li class="line"></li>
 			
 			</ul>
