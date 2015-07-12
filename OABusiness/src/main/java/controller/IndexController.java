@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import service.GetAllNewsService;
 
 
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 /**
@@ -57,8 +58,11 @@ public class IndexController {
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
-    public String getLogin(ModelMap model){
-        return "login";
+    public String getLogin(ModelMap model,HttpSession httpSession){
+        if(httpSession.getAttribute("login") == "true")
+            return "office_index";
+        else
+            return "login";
     }
 
     @RequestMapping(value = "/equip_Index", method = RequestMethod.GET)

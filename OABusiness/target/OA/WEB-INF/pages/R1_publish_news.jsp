@@ -6,7 +6,17 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <link rel="stylesheet" type="text/css" href="resources/css/office_index.css"/>
-    <script type="text/javascript" src="resources/js/publish_news.js"></script>
+    <%--<script type="text/javascript" src="resources/js/publish_news.js"></script>
+    <script type="text/javascript" src="resources/js/kindeditor-min.js"></script>
+    <script type="text/javascript" src="resources/js/zh_CN.js"></script>--%>
+    <%--<script charset="utf-8" src="resources/js/kindeditor-min.js"></script>
+    <script charset="utf-8" src="resources/js/zh_CN.js"></script>
+    <script charset="utf-8" src="resources/js/publish_news.js"></script>--%>
+
+    <script charset="text/javascript" src="resources/js/kindeditor-min.js"></script>
+    <script charset="text/javascript" src="resources/js/zh_CN.js"></script>
+    <script charset="text/javascript" src="resources/js/publish_news.js"></script>
+
 </head>
 
 <body>
@@ -47,29 +57,14 @@
 
             <tr>
                 <td colspan="2" class="text">
-                    <textarea rows="30" cols="50" name="editor01" id="G_content">示例新闻或公告</textarea>
-                    <%--<script type="text/javascript">CKEDITOR.replace('editor01');</script>--%>
+                    <textarea id="G_content" name="content" style="width:700px;height:200px;visibility:hidden;"></textarea>
+                        <%--<textarea id="G_content" name="content" ></textarea>--%>
+
                     <span class="tips">1000字以内</span>	</td>
             </tr>
 
-            <%--<tr>--%>
-
-                <%--<div>--%>
-                    <%--<script src="resources/js/nicEdit.js" type="text/javascript"></script>--%>
-                    <%--<script type="text/javascript">--%>
-                        <%--bkLib.onDomLoaded(function() {--%>
-                            <%--new nicEditor({ fullPanel: true }).panelInstance('txtContent');--%>
-                        <%--});--%>
-                    <%--</script>--%>
-                    <%--<textarea id="txtContent" name="content" rows="15" cols="100">实力内容--%>
-                    <%--</textarea>--%>
-
-                <%--</div>--%>
-            <%--</tr>--%>
-
-            <%--<tr>--%>
             <td class="submit">
-                <input type="submit" name="submit1" value="发布" class="submit" onclick="onClickSubmit()" />
+                <input onclick="submit()" type="button" id="submit" name="submit1" value="发布" class="loginButton"  />
             </td>
 
         </tr>

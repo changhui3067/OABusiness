@@ -12,6 +12,7 @@
 <script type="text/javascript" src="resources/js/jQuery1.7.2.js"></script>
 <script type="text/javascript" src="resources/js/cookie.js"></script>
 <script type="text/javascript" src="resources/js/login.js"></script>
+<script type="text/javascript" src="resources/js/base.js"></script>
 
 
 <body id="indexid">

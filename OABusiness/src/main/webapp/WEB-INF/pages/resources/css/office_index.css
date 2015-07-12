@@ -486,6 +486,7 @@ span.keylist {
 	text-align:right;
 	width:130px;
 	color:#000;
+
 }
 .table td.input {
 	padding:8px 5px;
@@ -496,8 +497,13 @@ span.keylist {
 	color:#f00;
 }
 .table td.input input.text,.table td.input textarea.textarea {
-	margin-right:5px;
-	width:220px;
+	width:230px;
+	background: #fefefe;
+	border: 1px solid #bbb;
+	font-size: 14px;
+	color: #333;
+	padding: 2px;
+	border-radius: 3px;
 }
 .table td.input textarea.textarea {
 	width:80%;
@@ -2426,6 +2432,7 @@ table.equipment_table td{
 	padding-left: 175px;
 	text-align: center;
 	margin-top: 20px;
+	padding-bottom: 20px;
 }
 .approval_bar{
 	width:530px;
@@ -2671,6 +2678,108 @@ table.equipment_table td{
 /* 5-2 */
 
 /*****************From Freyja 2015-06-13***************************/
+table#back_Edit_table {
+	margin-left: 80px;
+}
+.backUp_lable{
+	white-space: nowrap;
+	padding: 4px 0px 4px 5px;
+	line-height: 1.5;
+	font-size: 12px;
+	text-align: center;
+	width: 50px;
+	color: #000;
+}
+
+#backUp_Id{
+	width:50px;
+	background: #fefefe;
+	border: 1px solid #bbb;
+	font-size: 14px;
+	color: #333;
+	padding: 2px;
+	border-radius: 3px;
+}
+#backUp_Name{
+	width:100px;
+	background: #fefefe;
+	border: 1px solid #bbb;
+	font-size: 14px;
+	color: #333;
+	padding: 2px;
+	border-radius: 3px;
+}
+#backUp_Num{
+	width:30px;
+	background: #fefefe;
+	border: 1px solid #bbb;
+	font-size: 14px;
+	color: #333;
+	padding: 2px;
+	border-radius: 3px;
+}
+table#backUp_added{
+	margin-left:80px;
+	display:block;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+/*table#backUp_added{border-right:1px solid #000;border-bottom:1px solid #000;width: 466px;}
+table#backUp_added td{border-left:1px solid #000;border-top:1px solid #000;width: 466px;}*/
+table#backUp_added{background: #000; width: 466px;}
+table#backUp_added td{background: #fff;}
+.added_Id{
+	text-align: center;
+	width: 110px;
+}
+.added_Name{
+	text-align: center;
+	width: 161px;
+}
+.added_Num{
+	text-align: center;
+	width: 125px;
+}
+.added_deleteButton{
+	width:60px;
+	text-align: center;
+	border: none;
+}
+.added_deleteButton input[type=button]{
+	border:none;
+	background: #fff;
+	width: 30px;
+	height: 18px;
+}
+.added_deleteButton input[type=button]:hover{
+	 border:none;
+	 background: #4aa3ff;
+	 width: 30px;
+	 height: 18px;
+	 color: #fff;
+ }
+
+input#add_backUp{
+	margin-left: 30px;
+	border: 1px solid #000;
+	background: #fff;
+	width: 30px;
+	height: 18px;
+}
+input#add_backUp:hover{
+	margin-left: 30px;
+	border:none;
+	background: #4aa3ff;
+	width: 30px;
+	height: 18px;
+	color: #fff;
+}
+
+
+
+
+
+
 .equipment_img_zone{
 	margin-top:10px;
 }

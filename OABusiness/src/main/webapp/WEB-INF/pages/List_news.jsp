@@ -19,27 +19,24 @@
 </head>
 <body>
 
-
 <div class="header">
-  <div class="inner">
+  <div class="wrap">
     <div class="top-logo">
-      <a href="/" title="网站名称" id="web_logo"><img src="/resources/img/logo.png" alt="网站名称" title="网站名称" style="margin:20px 0px 0px 0px;"/></a>
+      <a href="/" title="网站名称" id="web_logo"><img src="../img/logo.png" alt="网站名称" title="网站名称" style="margin:20px 0px 0px 0px;"/></a>
       <ul class="top-nav list-none"></ul>
     </div>
   </div>
 </div>
 
 <div class="nav_background">
-  <div class="nav_div">
-    <nav>
+  <div class="wrap">
+    <div class="nav">
       <ul class="list-none">
         <li style='width:138px;' ><a href='/' class='nav'><span>首页</span></a></li>
         <li class="line"></li>
-        <li style='width:138px;' ><a href='/onlineBusiness' class='hover-none nav'><span>在线办公</span></a></li>
-        <li class="line"></li>
-
+        <li style='width:138px;' ><a href="/login" class='hover-none nav'><span>在线办公</span></a></li>
       </ul>
-    </nav>
+    </div>
   </div>
 </div>
 

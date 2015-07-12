@@ -13,6 +13,7 @@
 	<script type="text/javascript" src="resources/js/cookie.js"></script>
 	<script type="text/javascript" src="resources/js/office_index.js"></script>
 	<script type="text/javascript" src="resources/js/R5.js"></script>
+	<script type="text/javascript" src="resources/js/login.js"></script>
 </head>
 
 
@@ -28,7 +29,7 @@
 							<p>
 								您好 <a onclick="onClickJumpMenu(this)" name="personal_Zone" id="mydata" class='tui' style="text-decoration:underline;">余成东</a>
 								<span>-</span>
-								<a href="#" id="outhome" title="退出" class='tui' style="text-decoration:underline;">退出</a>
+								<a onclick="logout()" id="outhome" title="退出" class='tui' style="text-decoration:underline;">退出</a>
 							</p>
 
 							<P>

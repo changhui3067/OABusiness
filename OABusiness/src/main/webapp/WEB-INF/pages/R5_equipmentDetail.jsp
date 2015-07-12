@@ -95,10 +95,11 @@
             </p>
         </div>
 
-        <div class="equipOperation">
-                <div class="input_button"><a>修改</a></div>
-                <div class="input_button"><a>删除</a></div>
+        <div class="input_button2">
+            <input type="button" value="修改" id="pass_button" name="modifyButton" class="loginButton">
+            <input type="button" value="删除" id="noPass_button" name="deleteButton" class="loginButton">
         </div>
+
     </div>
 
 </div>

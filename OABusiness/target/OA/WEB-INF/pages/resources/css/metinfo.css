@@ -126,31 +126,39 @@ td.submint{ padding:10px;}
 
 /* 导航栏 */
 .nav_background{
-	width:100%; 
-	background:#013d97;
+	background:#013d97;position: relative;width:100%;z-index: 999;
 	}
-.nav_div
-{
+
+.wrap{
 	width:980px;
 	margin:0 auto;
-}	
+}
 /*头部*/
-.header{ background:#013d97; zoom:1}
+.header{ background:#013d97;position: relative;width:100%;z-index: 999; }
 #web_logo{ margin-left:10px; font-size:0px; position:relative; z-index:999;}
 .top-nav{ color:#fff; position:absolute; right:5px; top:8px; height:77px; z-index:1; text-align:right; width:100%;}
 .top-nav a{ color:#fff;}
 .top-nav a:hover{ color:#fff;}
 .top-nav li.b{ position:absolute; bottom:0px; right:0px;}
 .top-nav li.t span{ padding:0px 5px; font-size:10px; color:#bbb;}
-.top-logo{ min-height:90px; _height:90px;}
-.nav{height:40px; overflow:hidden;}
-.nav ul li{ float:left; text-align:center; height:40px; line-height:40px; overflow:hidden; background:#007ac7 url(/img/dt-3.gif) repeat-x; }
-.nav ul li a{ color:#fff; font-size:14px;}
-.nav ul li a:hover{ color:#fff;}
-.nav ul li.line{ width:0px; height:40px; padding:0px; border-left:1px solid #0073bc; border-right:1px solid #0389de;}
-.nav ul li.hover,.nav ul li.navdown{ background:url(/img/dt-4.gif) repeat-x;}
-.nav ul li.hover a,.nav ul li.navdown a{ color:#444;}
-.nav ul li.hover a:hover,.nav ul li.navdown a:hover{ color:#444;}
+.top-logo{}
+.nav1{height:40px; overflow:hidden;}
+.nav1 ul li{
+	float:left;
+	text-align:center;
+ 	height:40px;
+ 	line-height:40px;
+	overflow:hidden;
+	background:#007ac7 url(/img/dt-3.gif) repeat-x;
+}
+.nav1 ul li a{ color:#fff; font-size:14px;}
+.nav1 ul li a:hover{ color:#fff;}
+.nav1 ul li.line{ width:0px; height:40px; padding:0px; border-left:1px solid #0073bc; border-right:1px solid #0389de;}
+.nav1 ul li.hover,.nav1 ul li.navdown{
+	background:url(/img/dt-4.gif) repeat-x;
+}
+.nav1 ul li.hover a,.nav1 ul li.navdown a{ color:#444;}
+.nav1 ul li.hover a:hover,.nav1 ul li.navdown a:hover{ color:#444;}
 .met_flash{  font-size:0px; overflow:hidden;/*margin-top:10px;*/} 
 .met_flash ul{ margin:0px; padding:0px;} 
 

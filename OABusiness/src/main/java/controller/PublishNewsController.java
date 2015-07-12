@@ -22,14 +22,14 @@ public class PublishNewsController {
     publishNews( @RequestParam(value="topic",required = false) String topic,
                  @RequestParam(value="author",required = false) String author,
                  @RequestParam(value="content",required = false) String content){
-//        try {
-//            topic = new String( topic.getBytes("ISO-8859-1") , "UTF-8");
-//            System.out.println(content);
-//            content = new String( content.getBytes("ISO-8859-1") , "UTF-8");
-//            System.out.println(topic+"\t"+content);
-//        } catch (UnsupportedEncodingException e) {
-//            e.printStackTrace();
-//        }
+        try {
+            topic = new String( topic.getBytes("ISO-8859-1") , "UTF-8");
+            System.out.println(content);
+            content = new String( content.getBytes("ISO-8859-1") , "UTF-8");
+            System.out.println(topic+"\t"+content);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
         News news=new News();
         news.setNewscontent(content);
         news.setTitle(topic);

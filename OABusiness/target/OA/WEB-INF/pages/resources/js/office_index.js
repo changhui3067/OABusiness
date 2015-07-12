@@ -131,12 +131,13 @@ function  onClickJumpMenu(param){
         case "nav_2":
             xmlhttp.open("GET","/oaEmployee",true);
             break;
+
         case "nav_3":
-            //**********By Freyja 2015-07-06
-            /*$("#topnav a").removeClass("onnav");*/
-            /*$("#metnav_3 a").addClass("onnav");*/
+            $("#topnav a").removeClass("onnav");
+            $("#metnav_3 a").addClass("onnav");
             xmlhttp.open("GET","/oaMessage",true);
             break;
+
         case "nav_4":
             xmlhttp.open("GET","/oaFile",true);
             break;

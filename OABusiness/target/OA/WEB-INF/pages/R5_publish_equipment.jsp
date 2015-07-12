@@ -6,7 +6,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <link rel="stylesheet" type="text/css" href="resources/css/office_index.css"/>
-    <script type="text/javascript" src="resources/js/publish_equipment.js.js"></script>
+    <link rel="stylesheet" type="text/css" href="resources/css/date.css"/>
+        <script type="text/javascript" src="resources/js/publish_equipment.js"></script>
+    <script type="text/javascript" src="resources/js/jquery_min.js"></script>
+    <script type="text/javascript" src="resources/js/jquery_date.js"></script>
 
 </head>
 
@@ -14,13 +17,27 @@
 
 <div class="right_content">
     <div name="myform"  target="_self">
-        <input name="action" type="hidden" value="modify" />
+
         <table cellpadding="2" cellspacing="1" class="table">
+
+            <tr>
+                <td class="text"><span class="bi_tian">*</span>故障名称：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td class="input">
+                    <input type="text" class="text" id="Z_name"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text"><span class="bi_tian">*</span>录入日期：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td class="input">
+                    <input type="text" class="date_picker" id="Z_date"/>
+                </td>
+            </tr>
 
             <tr>
                 <td class="text"><span class="bi_tian">*</span>排查部位：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                 <td class="input">
-                    <input name="met_weburl" type="text" class="text" id="Z_name"/>
+                    <input type="text" class="text" id="Z_part"/>
                 </td>
             </tr>
 
@@ -34,11 +51,90 @@
 
             <tr>
                 <td class="text"><span class="bi_tian">*</span>更换的备件：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td class="input">
-                    <input name="met_weburl" type="text" class="text" id="Z_replacements"/>
-                </td>
-            </tr>
 
+
+            </tr>
+        </table>
+
+                    <table id="back_Edit_table">
+                        <tr >
+                            <td class="backUp_lable">
+                                <span>备件编号</span>
+                            </td>
+
+                            <td>
+                                <input type="text" id="backUp_Id"/>
+                            </td>
+
+                            <td class="backUp_lable">
+                                <span>备件名称</span>
+                            </td>
+
+                            <td>
+                                <input type="text" id="backUp_Name"/>
+                            </td>
+
+                            <td class="backUp_lable">
+                                <span>备件数量</span>
+                            </td>
+
+                            <td>
+                                <input type="button" value=" - "/>
+                                </td>
+
+                            <td>
+                                <input type="text" id="backUp_Num" value="1"/>
+                            </td>
+
+                            <td>
+                                <input type="button" value="+"/>
+                            </td>
+
+                            <td>
+                                <input type="button" id="add_backUp" value="添加"/>
+                            </td>
+                        </tr>
+                    </table>
+
+            <table id="backUp_added">
+                <tr style="background: #C8C6C6;">
+                    <td class="added_Id">
+                        编号
+                    </td>
+
+                    <td class="added_Name">
+                        名称
+                    </td>
+
+                    <td class="added_Num">
+                        数量
+                    </td>
+
+                    <td class="added_deleteButton">
+                        操作
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="added_Id">
+                        00101
+                    </td>
+
+                    <td class="added_Name">
+                        备件1
+                    </td>
+
+                    <td class="added_Num">
+                        2
+                    </td>
+
+                    <td class="added_deleteButton">
+                        <input type="button" value="删除"/>
+                    </td>
+                </tr>
+            </table>
+
+        <table cellpadding="2" cellspacing="1" class="table">
             <tr>
                 <td class="text"><span class="bi_tian">*</span>修理过程图片：&nbsp;&nbsp;&nbsp;&nbsp;</td>
                 <td class="input">
@@ -68,8 +164,9 @@
 
             <tr>
                 <td colspan="2" class="text">
-                    <textarea rows="30" cols="50" name="editor01" class="Z_description" id="Z_method"></textarea>
-                    <span class="tips">100字以内</span>	</td>
+                    <textarea rows="30" cols="50" class="Z_description" id="Z_method"></textarea>
+                    <span class="tips">100字以内</span>
+                </td>
             </tr>
 
             <tr>
