@@ -33,7 +33,8 @@
                 <th width="100"  scope="col">原因</th>
                 <th width="200"  scope="col">离开时间段</th>
                 <th width="100"  scope="col">提交时间</th>
-                <th width="100"  scope="col">处理结果</th>
+                <th width="80"  scope="col">处理结果</th>
+                <th width="80"  scope="col">更多</th>
             </tr>
 
             <tr>
@@ -43,6 +44,9 @@
                 <td id="Z_responsible">2015.06.11~2015.06.18</td>
                 <td id="Z_time">2015-6-1</td>
                 <td id="Z_result">已通过</td>
+                <td>
+                    <a onclick="R_onClickJump(this)" name="R2_aHistoryDetail" style="text-decoration: underline;color:blue";>详情</a>
+                </td>
             </tr>
 
             <tr>
@@ -52,6 +56,9 @@
                 <td>2015.06.11~2015.06.18</td>
                 <td>2015-6-1</td>
                 <td>已通过</td>
+                <td>
+                    <a onclick="R_onClickJump(this)" name="R2_aHistoryDetail" style="text-decoration: underline;color:blue";>详情</a>
+                </td>
             </tr>
 
             </tbody>

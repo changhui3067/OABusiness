@@ -12,9 +12,34 @@
 	<script src="resources/js/metinfo.js" type="text/javascript"></script>
 	<script type="text/javascript" src="resources/js/cookie.js"></script>
 	<script type="text/javascript" src="resources/js/office_index.js"></script>
+	<script type="text/javascript" src="resources/js/R4.js"></script>
 	<script type="text/javascript" src="resources/js/R5.js"></script>
 	<script type="text/javascript" src="resources/js/login.js"></script>
-</head>
+
+	<script charset="text/javascript" src="resources/js/kindeditor-min.js"></script>
+	<script charset="text/javascript" src="resources/js/zh_CN.js"></script>
+	<script charset="text/javascript" src="resources/js/publish_news.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="resources/css/jquery_date_ui.css" />
+	<style type="text/css">
+		#ui-datepicker-div a{color:#007bc4; text-decoration:none;}
+		#ui-datepicker-div a:hover{text-decoration:underline;}
+		#ui-datepicker-div ol,ul{list-style:none;}
+		#ui-datepicker-div table{border-collapse:collapse;border-spacing:0;}
+		#ui-datepicker-div { font:12px/18px Tahoma, Helvetica, Arial, Verdana, "\5b8b\4f53", sans-serif; color:#51555C;}
+		#ui-datepicker-div img{border:none;}
+	</style>
+	<script type="text/javascript" src="resources/js/jquery_min.js"></script>
+	<script type="text/javascript" src="resources/js/jquery-ui-datepicker.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#date_8").datepicker({
+				showOn: "button",
+				buttonImage: "resources/img/calendar.gif",
+				buttonImageOnly: true
+			});
+		});
+	</script>
 
 
 <body id="indexid">
@@ -28,6 +53,7 @@
 						<div class="top-r-t">
 							<p>
 								您好 <a onclick="onClickJumpMenu(this)" name="personal_Zone" id="mydata" class='tui' style="text-decoration:underline;">余成东</a>
+
 								<span>-</span>
 								<a onclick="logout()" id="outhome" title="退出" class='tui' style="text-decoration:underline;">退出</a>
 							</p>

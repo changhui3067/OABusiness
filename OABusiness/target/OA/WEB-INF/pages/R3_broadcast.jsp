@@ -28,7 +28,7 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <input type="radio" name="identity" value="一般管理员" />一般管理员
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="identity" value="最高管理员" />最高管理员
+                        <input type="radio" name="identity" value="最高管理员" />超级管理员
                     </td>
                 </tr>
 

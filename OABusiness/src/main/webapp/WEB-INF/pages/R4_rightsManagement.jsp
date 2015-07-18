@@ -7,10 +7,10 @@
 
     <link rel="stylesheet" type="text/css" href="resources/css/office_index.css"/>
 
-
 </head>
 
 <body>
+
 
 <div class="right_content">
     <div id="persons_list">
@@ -74,7 +74,5 @@
         <input type="button" name="modify" value="保存" />
     </div>
 </div>
-
-
 </body>
 </html>

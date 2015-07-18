@@ -11,6 +11,12 @@
 </head>
 
 <body>
+<div class="backToR">
+    <div class="R2_Search1">
+        <input type="text" value="" placeholder="搜索职员姓名或ID">
+        <input type="button" value="搜索" >
+    </div>
+</div>
 
 <div class="right_content">
     <div id="persons_list">
@@ -22,29 +28,8 @@
                 <th width="100"  scope="col">职员权限</th>
                 <th width="60"  scope="col">所属部门</th>
                 <th width="60"  scope="col">当前状态</th>
+                <th width="100"  scope="col">操作</th>
                 <th width="100"  scope="col">更多</th>
-            </tr>
-
-            <tr>
-                <td id="ZG_Id">09012</td>
-                <td id="ZG_name">张三</td>
-                <td id="ZG_level">超级管理员</td>
-                <td id="ZG_department">机电部门</td>
-                <td id="ZG_status">出差</td>
-                <td>
-                    <a style="text-decoration: underline;color:blue";>详情</a>
-                </td>
-            </tr>
-
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >航海部门</td>
-                <td >在公司</td>
-                <td>
-                    <a style="text-decoration: underline;color:blue";>详情</a>
-                </td>
             </tr>
 
             <tr>
@@ -54,9 +39,53 @@
                 <td >机电部门</td>
                 <td >休假</td>
                 <td>
-                    <a style="text-decoration: underline;color:blue";>详情</a>
+                    <input type="button" name="modify" value="修改" />&nbsp;&nbsp;|&nbsp;
+                    <input type="button" name="delete" value="删除" />
                 </td>
+                <td>
+                    <a onclick="onClickJumpMenu(this)" name="personal_Zone" style="text-decoration: underline;color:blue";>详情</a>
+                </td>
+
+
+
+
             </tr>
+
+            <tr>
+                <td id="ZG_Id">09012</td>
+                <td id="ZG_name">张三</td>
+                <td id="ZG_level">超级管理员</td>
+                <td id="ZG_department">机电部门</td>
+                <td id="ZG_status">出差</td>
+                <td>
+                    <input type="button" name="modify" value="修改" />&nbsp;&nbsp;|&nbsp;
+                    <input type="button" name="delete" value="删除" />
+                </td>
+                <td>
+                    <a onclick="onClickJumpMenu(this)" name="personal_Zone" style="text-decoration: underline;color:blue";>详情</a>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td >在单位</td>
+                <td>
+                    <input type="button" name="modify" value="修改" />&nbsp;&nbsp;|&nbsp;
+                    <input type="button" name="delete" value="删除" />
+                </td>
+                <td>
+                    <a onclick="onClickJumpMenu(this)" name="personal_Zone" style="text-decoration: underline;color:blue";>详情</a>
+                </td>
+
+
+            </tr>
+
+
 
             </tbody>
         </table>

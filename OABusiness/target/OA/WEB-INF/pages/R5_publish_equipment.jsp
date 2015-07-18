@@ -6,10 +6,32 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <link rel="stylesheet" type="text/css" href="resources/css/office_index.css"/>
-    <link rel="stylesheet" type="text/css" href="resources/css/date.css"/>
-        <script type="text/javascript" src="resources/js/publish_equipment.js"></script>
+
+
+    <script type="text/javascript" src="resources/js/publish_equipment.js"></script>
+    <script type="text/javascript" src="resources/js/R5.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="resources/css/jquery_date_ui.css" />
+    <style type="text/css">
+        #ui-datepicker-div a{color:#007bc4; text-decoration:none;}
+        #ui-datepicker-div a:hover{text-decoration:underline;}
+        #ui-datepicker-div ol,ul{list-style:none;}
+        #ui-datepicker-div table{border-collapse:collapse;border-spacing:0;}
+        #ui-datepicker-div { font:12px/18px Tahoma, Helvetica, Arial, Verdana, "\5b8b\4f53", sans-serif; color:#51555C;}
+        #ui-datepicker-div img{border:none;}
+    </style>
     <script type="text/javascript" src="resources/js/jquery_min.js"></script>
-    <script type="text/javascript" src="resources/js/jquery_date.js"></script>
+    <script type="text/javascript" src="resources/js/jquery-ui-datepicker.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#date_8").datepicker({
+                showOn: "button",
+                buttonImage: "resources/img/calendar.gif",
+                buttonImageOnly: true
+            });
+        });
+    </script>
 
 </head>
 
@@ -27,12 +49,7 @@
                 </td>
             </tr>
 
-            <tr>
-                <td class="text"><span class="bi_tian">*</span>录入日期：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td class="input">
-                    <input type="text" class="date_picker" id="Z_date"/>
-                </td>
-            </tr>
+
 
             <tr>
                 <td class="text"><span class="bi_tian">*</span>排查部位：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -51,8 +68,6 @@
 
             <tr>
                 <td class="text"><span class="bi_tian">*</span>更换的备件：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-
-
             </tr>
         </table>
 
@@ -79,15 +94,15 @@
                             </td>
 
                             <td>
-                                <input type="button" value=" - "/>
+                                <input type="button" value=" - " id="buttonsub"/>
                                 </td>
 
                             <td>
-                                <input type="text" id="backUp_Num" value="1"/>
+                                <input type="text" id="backUp_Num" value="1" />
                             </td>
 
                             <td>
-                                <input type="button" value="+"/>
+                                <input type="button" value="+" id="buttonadd"/>
                             </td>
 
                             <td>
@@ -97,7 +112,7 @@
                     </table>
 
             <table id="backUp_added">
-                <tr style="background: #C8C6C6;">
+                <tr>
                     <td class="added_Id">
                         编号
                     </td>
@@ -129,12 +144,20 @@
                     </td>
 
                     <td class="added_deleteButton">
-                        <input type="button" value="删除"/>
+                        <input type="button" value="删除" onclick="itemdelete(this)" />
                     </td>
                 </tr>
             </table>
 
         <table cellpadding="2" cellspacing="1" class="table">
+
+            <tr>
+                <td class="text"><span class="bi_tian">*</span>录入日期：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td class="input">
+                    <input type="text" class="text" id="date_8" readonly  />
+                </td>
+            </tr>
+
             <tr>
                 <td class="text"><span class="bi_tian">*</span>修理过程图片：&nbsp;&nbsp;&nbsp;&nbsp;</td>
                 <td class="input">
@@ -146,6 +169,7 @@
                     </script>-->
                 </td>
             </tr>
+
 
 
             <tr>
@@ -190,6 +214,15 @@
     </div>
 
 </div>
+
+<script type="text/javascript">
+    window.onload = function init() {
+        document.getElementById("buttonsub").onclick = itemsub;
+        document.getElementById("buttonadd").onclick = itemadd;
+        document.getElementById("add_backUp").onclick = iteminsert;
+    }
+
+</script>
 
 
 </body>

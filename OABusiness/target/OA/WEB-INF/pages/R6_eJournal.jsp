@@ -13,7 +13,7 @@
 <body>
 
 <div class="right_content">
-    苦逼程序猿加班加点正在设计开发 "电子日志" 中
+    正在开发中...
 </div>
 
 

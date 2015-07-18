@@ -43,10 +43,10 @@
 
 <div class="sidebar wrap">
   <div class="wrap">
-     <div class="sb_nav">
+    <div class="sb_nav">
       <h3 class='title myCorner' data-corner='top 5px'>其他系统链接</h3>
       <div class="active" id="sidebar" data-csnow="2" data-class3="0" data-jsok="2">
-        <dl class="list-none navnow"><dt><a href='#'><span>装备故障库</span></a></dt></dl>
+        <dl class="list-none navnow"><dt><a href='/equip_Index'  ><span>装备库</span></a></dt></dl>
         <dl class="list-none navnow"><dt><a href='#'  ><span>训练系统</span></a></dt></dl>
         <dl class="list-none navnow"><dt><a href='#'  ><span>装备后勤保障系统</span></a></dt></dl>
         <dl class="list-none navnow"><dt><a href='#'  ><span>其他系统1</span></a></dt></dl>
@@ -56,8 +56,7 @@
       </div>
     </div>
 
-
-      <div class="sb_box">
+    <div class="sb_box">
       <h3 class="title">
         <div class="position">当前位置：<a href="/" title="网站首页">网站首页</a> &gt; <a href="/newsList" >时事新闻列表</a></div>
         <span>时事新闻</span>

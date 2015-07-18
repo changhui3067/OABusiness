@@ -2331,6 +2331,12 @@ input.loginButton {
 	height: 20px;
 	border: 1px solid #aaa;
 }
+.R1_1 {
+	margin-left: 73px;
+}
+.R2_1 {
+	 margin-left: 50px;
+ }
 
 /* 0 Personal*/
 #detail_Info{
@@ -2396,7 +2402,7 @@ input.loginButton {
 	float: left;
 }
 .backToR {
-	margin-top: 10px;
+	margin-top: 20px;
 	float: left;
 	width: 100%;
 }
@@ -2425,12 +2431,15 @@ table.equipment_table td{
 	text-align: center;
 }
 
+/*   1-1  */
+.ke-container.ke-container-qq {
+	margin-left: 62px;
+}
+
 /*  日程申请、审批  */
 
 .input_button2 {
 	float: left;
-	padding-left: 175px;
-	text-align: center;
 	margin-top: 20px;
 	padding-bottom: 20px;
 }
@@ -2451,15 +2460,14 @@ table.equipment_table td{
 }
 
 #request_Time{
-	margin-left:40px;
-	margin-top:18px;
+	margin-top:20px;
 }
 .top_tr{
 	background: #C8C6C6;
 }
 #reason_text{
 	height:100px;
-	width:50%;
+	width:80%;
 }
 .text1{
 	white-space: nowrap;
@@ -2470,7 +2478,13 @@ table.equipment_table td{
 	width: 130px;
 	color: #000;
 }
+/*  2-3 */
 
+.request_headline {
+	float: left;
+	margin-left: 85px;
+	margin-bottom: 20px;
+}
 /* 2-4  */
 .ZG_status_off {
 	background: url(../img/holiday.png) no-repeat left 9px;
@@ -2512,7 +2526,11 @@ table.equipment_table td{
 }
 .R2_Search{
 	float:right;
-	margin-right: 95px;
+	margin-right: 35px;
+}
+.R2_Search1{
+	float:right;
+	margin-right: 173px;
 }
 
 /* 3-1*/
@@ -2641,33 +2659,59 @@ table.equipment_table td{
 	margin-top:30px;
 }
 /* 4-1 */
-.list_things {
-	/*padding-top:15px;*/
-	padding-left:70px;
-	padding-right:200px;
+
+.folder_list{
+	float: left;
+	width:20%;
+	background: #fff;
+	margin-top:10px;
+	border-right: 1px dotted #000;
 }
-.list_things li {
+.file_list{
+	float:left;
+	width:70%;
+}
+.level{
+	margin-left:15px;
 	list-style:none;
-	padding-left:3px;
+}
+.folder_list ul li span img{
+	float:left;
+	margin-top:3px;
+	width:14px;
+	height:14px;
+	margin-right: 5px;
+}
+
+.files{
+	width:100%;
+	float:left;
+	margin-left:20px;
+	margin-top:10px;
+}
+
+.files li {
+	list-style:none;
 	height:25px;
 	line-height:25px;
-	overflow:hidden;
-}
-.list_things li {
-	padding: 9px 10px;
-	background: url(../img/dt-0.gif) no-repeat left 19px;
+	overflow:hidden;;
+	background: url(../img/dt-0.gif) no-repeat left 10px;
 	font: 12px/1.8 Tahoma,Verdana,'Simsun';
 	color: #333;
 }
-.list_things li span {
-	float:right;
-	color:#999;
-	margin-right: 20px;
-}
-.fileIcon{
-	float:left;
+.files li span{
+	margin-left: 5px;
 	margin-right: 5px;
 }
+.files li span img{
+	float:left;
+	margin-right: 8px;
+}
+.files li span a{
+	float:left;
+	width:60%;
+}
+
 
 /*   4-2  */
 .save_rights input[type="button"] {
@@ -2774,8 +2818,6 @@ input#add_backUp:hover{
 	height: 18px;
 	color: #fff;
 }
-
-
 
 
 

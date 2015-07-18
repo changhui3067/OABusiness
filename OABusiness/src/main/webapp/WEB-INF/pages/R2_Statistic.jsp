@@ -47,7 +47,7 @@
                 <td id="ZG_Id">09012</td>
                 <td id="ZG_name">张三</td>
                 <td id="ZG_level">超级管理员</td>
-                <td id="ZG_department">最高层</td>
+                <td id="ZG_department">机电部门</td>
                 <td id="ZG_status" class="ZG_status_out">出差</td>
             </tr>
 
@@ -55,15 +55,15 @@
                 <td >09010</td>
                 <td >李四</td>
                 <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
             </tr>
 
             <tr>
                 <td >09011</td>
                 <td >王五</td>
                 <td >普通用户</td>
-                <td >技术部</td>
+                <td >机电部门</td>
                 <td class="ZG_status_off">请假</td>
             </tr>
 
@@ -71,315 +71,268 @@
                 <td >09010</td>
                 <td >李四</td>
                 <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
             </tr>
 
             <tr>
                 <td >09011</td>
                 <td >王五</td>
                 <td >普通用户</td>
-                <td >技术部</td>
+                <td >机电部门</td>
                 <td class="ZG_status_off">请假</td>
-            </tr>
-
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
             </tr><tr>
                 <td >09010</td>
                 <td >李四</td>
                 <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
             </tr>
 
             <tr>
                 <td >09011</td>
                 <td >王五</td>
                 <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
             </tr><tr>
                 <td >09010</td>
                 <td >李四</td>
                 <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
             </tr>
 
             <tr>
                 <td >09011</td>
                 <td >王五</td>
                 <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
-            </tr>
-            <tr>
-                <td >09010</td>
-                <td >李四</td>
-                <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
-            </tr>
-
-            <tr>
-                <td >09011</td>
-                <td >王五</td>
-                <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
             </tr><tr>
                 <td >09010</td>
                 <td >李四</td>
                 <td >一般管理员</td>
-                <td >财务部</td>
-                <td class="ZG_status_on">在公司</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
             </tr>
 
             <tr>
                 <td >09011</td>
                 <td >王五</td>
                 <td >普通用户</td>
-                <td >技术部</td>
-                <td class="ZG_status_out">出差</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
+            </tr><tr>
+                <td >09010</td>
+                <td >李四</td>
+                <td >一般管理员</td>
+                <td >航海部门</td>
+                <td class="ZG_status_on">在单位</td>
+            </tr>
+
+            <tr>
+                <td >09011</td>
+                <td >王五</td>
+                <td >普通用户</td>
+                <td >机电部门</td>
+                <td class="ZG_status_off">请假</td>
             </tr>
 
 

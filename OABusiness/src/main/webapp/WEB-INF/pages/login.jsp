@@ -14,6 +14,16 @@
 <script type="text/javascript" src="resources/js/login.js"></script>
 <script type="text/javascript" src="resources/js/base.js"></script>
 
+<script type="text/javascript" language=JavaScript charset="UTF-8">
+	document.onkeydown=function(event){
+		var e = event || window.event || arguments.callee.caller.arguments[0];
+		if(e && e.keyCode==13){ // enter 键
+			onClickSubmit();
+		}
+	};
+</script>
+
+
 
 <body id="indexid">
 <div id="metcmsbox" style="width:100%;">
@@ -46,7 +56,8 @@
 						<input type="password" id="L_pwd" name="password" class="text" size="20">
 					</div>
 				<div class="input_button1">
-					<input type="button" value="登录" onclick="onClickSubmit()" id="login_button" name="loginButton" class="loginButton">
+					<%--<input onkeydown='if(event.keyCode==13){login_button.click()}'>
+					--%><input type="button" value="登录" onclick="onClickSubmit()" id="login_button" name="loginButton" class="loginButton">
 				</div>
 			</div>
 			</div>

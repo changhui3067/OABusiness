@@ -28,7 +28,8 @@ function  onClickJump(param){
             xmlhttp.open("GET","/historyNews",true);
             break;
         case "2_1":
-            xmlhttp.open("GET","/addEmployee",true);
+            /*xmlhttp.open("GET","/addEmployee",true);*/
+            xmlhttp.open("GET","/publishEquipment",true);
             break;
         case "2_2":
             xmlhttp.open("GET","/modifyEmployee",true);

@@ -56,7 +56,7 @@ KindEditor.ready(function(K) {
         ]
     });
 
-    K('input[id=submit]').click(function(e) {
+    K('input[id=publish]').click(function(e) {
         var xmlhttp;
         var topic = document.getElementById("G_topic").value;
         var author = document.getElementById("G_author").value;
@@ -90,27 +90,34 @@ KindEditor.ready(function(K) {
 
 
 /*
-function submit() {
+function publish(){
     var xmlhttp;
     var topic = document.getElementById("G_topic").value;
     var author = document.getElementById("G_author").value;
-//var content = editor.html();
-    var content = document.getElementById("G_content").value;
-//alert(editor.html());
-//alert(content);
-    if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
-        xmlhttp = new XMLHttpRequest();
+    //var content = editor.html();
+    var content = document.getElementById("Gcontent").value;
+    //alert(editor.html());
+    //alert(content);
+    if (window.XMLHttpRequest)
+    {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
     }
-    else {// code for IE6, IE5
-        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    else
+    {// code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
     }
-    xmlhttp.onreadystatechange = function () {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            var result = xmlhttp.responseText;
+    xmlhttp.onreadystatechange=function()
+    {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+            var result=xmlhttp.responseText;
             alert(result);
             location.reload(true);
         }
     };
-    xmlhttp.open("POST", "/publishNews?topic=" + topic + "&author=" + author + "&content=" + content, true);
+    xmlhttp.open("POST","/publishNews?topic="+topic+"&author="+author+"&content="+content,true);
     xmlhttp.send();
-}*/
+
+}
+*/
+

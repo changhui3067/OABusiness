@@ -19,10 +19,22 @@
         <th width="150" scope="col">所属部门</th>
         <th width="350" scope="col">权限</th>
       </tr>
+
+      <tr>
+        <th>3</th>
+        <th>余成东</th>
+        <th>机电部门</th>
+        <th>
+          <label><input name="R1" type="radio" value="" />超级管理员 </label>
+          <label><input name="R6" type="radio" value="" />一般管理员 </label>
+          <label><input name="R7" type="radio" value="" checked="checked"/>普通用户 </label>
+        </th>
+      </tr>
+
       <tr>
         <th>1</th>
         <th>张三</th>
-        <th>最高层</th>
+        <th>机电部门</th>
         <th>
           <label><input name="R1" type="radio" value="" checked="checked"/>超级管理员 </label>
           <label><input name="R6" type="radio" value="" />一般管理员 </label>
@@ -32,23 +44,14 @@
       <tr>
         <th>2</th>
         <th>李四</th>
-        <th>财务部</th>
+        <th>航海部门</th>
         <th>
           <label><input name="R1" type="radio" value="" />超级管理员 </label>
           <label><input name="R6" type="radio" value="" checked="checked"/>一般管理员 </label>
           <label><input name="R7" type="radio" value="" />普通用户 </label>
         </th>
       </tr>
-      <tr>
-        <th>3</th>
-        <th>你猜</th>
-        <th>IT部</th>
-        <th>
-          <label><input name="R1" type="radio" value="" />超级管理员 </label>
-          <label><input name="R6" type="radio" value="" />一般管理员 </label>
-          <label><input name="R7" type="radio" value="" checked="checked"/>普通用户 </label>
-        </th>
-      </tr>
+
       </tbody>
     </table>
     <div class="saveChanges">

@@ -15,7 +15,10 @@
 <div class="right_content">
 
     <div id="request_Time">
-        <h1>提交您的日程申请</h1>
+        <div class="request_headline">
+            <h1>提交您的日程申请</h1>
+        </div>
+
         <br>
         <div class="request_Table" name="myform"  target="_self">
             <table cellpadding="2" cellspacing="1" class="table">
@@ -61,7 +64,7 @@
 
             <div class="input_button2">
                 <a href="/onlineBusiness"><input type="button" value="提交"
-                                                 id="submit_button" name="submitButton" class="loginButton">
+                                                 id="submit_button" name="submitButton" class="loginButton R1_1">
                 </a>
             </div>
         </div>

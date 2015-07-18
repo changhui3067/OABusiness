@@ -15,7 +15,7 @@
 
 <div class="right_content">
     <div class="backToR">
-        <p style="font-size:18px;font-weight:bold;margin-left:120px; ">公司总体情况</p>
+        <p style="font-size:18px;font-weight:bold;margin-left:120px; ">单位总体情况</p>
     </div>
     <div class="total_data_1">
         <p><span>在职员工数：&nbsp;&nbsp;<a id="num_atWork" href="#">150</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -24,7 +24,10 @@
         <p><span>出差员工数：&nbsp;&nbsp;<a id="num_chuchai" href="#">12</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
         </p>
         <br>
-        <p><span>请假员工数：&nbsp;&nbsp;<a id="num_holiday" href="#">10</a></span>
+        <p><span>休假员工数：&nbsp;&nbsp;<a id="num_xiujia" href="#">20</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
+        <br>
+        <p><span>请假员工数：&nbsp;&nbsp;<a id="num_qingjia" href="#">10</a></span>
         </p>
     </div>
 
@@ -39,20 +42,20 @@
             </tr>
 
             <tr>
-                <td><a onclick="R_onClickJump(this)" name="R2_total_Statistic">财务部</a></td>
+                <td><a onclick="R_onClickJump(this)" name="R2_total_Statistic">机电部门</a></td>
                 <td>
-                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">财务部1</a> 、&nbsp;&nbsp;
-                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">财务部2</a>、&nbsp;&nbsp;
-                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">财务部3</a>
+                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">机电部门1</a> 、&nbsp;&nbsp;
+                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">机电部门2</a>、&nbsp;&nbsp;
+                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">机电部门3</a>
                 </td>
             </tr>
 
             <tr>
-                <td><a onclick="R_onClickJump(this)" name="R2_total_Statistic">技术部</a></td>
+                <td><a onclick="R_onClickJump(this)" name="R2_total_Statistic">航海部门</a></td>
                 <td>
-                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">技术部1</a>、&nbsp;&nbsp;
-                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">技术部2</a>、&nbsp;&nbsp;
-                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">技术部3</a>
+                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">航海部门1</a>、&nbsp;&nbsp;
+                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">航海部门2</a>、&nbsp;&nbsp;
+                    <a onclick="R_onClickJump(this)" name="R2_total_Statistic">航海部门3</a>
                 </td>
             </tr>
             </tbody>

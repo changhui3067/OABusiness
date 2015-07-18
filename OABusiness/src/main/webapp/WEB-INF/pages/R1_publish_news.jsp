@@ -6,16 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <link rel="stylesheet" type="text/css" href="resources/css/office_index.css"/>
-    <%--<script type="text/javascript" src="resources/js/publish_news.js"></script>
-    <script type="text/javascript" src="resources/js/kindeditor-min.js"></script>
-    <script type="text/javascript" src="resources/js/zh_CN.js"></script>--%>
-    <%--<script charset="utf-8" src="resources/js/kindeditor-min.js"></script>
-    <script charset="utf-8" src="resources/js/zh_CN.js"></script>
-    <script charset="utf-8" src="resources/js/publish_news.js"></script>--%>
 
-    <script charset="text/javascript" src="resources/js/kindeditor-min.js"></script>
-    <script charset="text/javascript" src="resources/js/zh_CN.js"></script>
-    <script charset="text/javascript" src="resources/js/publish_news.js"></script>
 
 </head>
 
@@ -38,7 +29,7 @@
             </tr>
 
             <tr>
-                <td class="text"><span class="bi_tian">*</span>添加附件：</td>
+                <td class="text"><span class="bi_tian">*</span>添加图片：</td>
                 <td class="input upload">
                     <input name="met_upsql" type="file" id="file_upload" />
                     <!--<script type='text/javascript'>
@@ -58,18 +49,16 @@
             <tr>
                 <td colspan="2" class="text">
                     <textarea id="G_content" name="content" style="width:700px;height:200px;visibility:hidden;"></textarea>
-                        <%--<textarea id="G_content" name="content" ></textarea>--%>
-
-                    <span class="tips">1000字以内</span>	</td>
+<%--
+                        <textarea id="G_content" name="content" ></textarea>
+--%>
             </tr>
 
-            <td class="submit">
-                <input onclick="submit()" type="button" id="submit" name="submit1" value="发布" class="loginButton"  />
-            </td>
 
-        </tr>
         </table>
+        <input <%--onclick="publish()" --%>type="button" id="publish" name="submit1" value="发布" class="loginButton R1_1"  />
     </div>
+
 
 </div>
 

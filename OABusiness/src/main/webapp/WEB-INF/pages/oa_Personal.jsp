@@ -48,7 +48,13 @@
 
     <br>
     <p>
-      <span class="input_button"><a>与他会话</a></span>
+      <span class="info_label">当前状态：</span>
+      <span id="state">休假</span>
+    </p>
+
+    <br>
+    <p>
+      <input type="button" value="与他会话" class="loginButton"/>
     </p>
   </div>
 

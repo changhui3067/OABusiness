@@ -11,85 +11,108 @@
 </head>
 
 <body>
+    <div class="files">
+        <ul class='list-none metlist'>
+            <li>
+                <span>
+                    <img src="img/fileIcon3.png" width="15" height="20">
+                    <a>1.doc</a>
+                </span>
 
-<div class="right_content">
-    <div class="backToR">
-        <a style="text-decoration: underline;color:gray;" onclick="R_onClickJump(this)" name="R4_1main">返回</a>
+                <span>[2012-07-17]</span>
+                <span>
+                    <input type="button" name="download" value="下载" />
+                </span>
+                <span>
+                    <input type="button" name="preview" value="预览" />
+                </span>
+            </li>
+            <li>
+                <span>
+                    <img src="img/fileIcon3.png" width="15" height="20">
+                    <a>1.doc</a>
+                </span>
+
+                <span>[2012-07-17]</span>
+                <span>
+                    <input type="button" name="download" value="下载" />
+                </span>
+                <span>
+                    <input type="button" name="preview" value="预览" />
+                </span>
+            </li>
+            <li>
+                <span>
+                    <img src="img/fileIcon3.png" width="15" height="20">
+                    <a>1.doc</a>
+                </span>
+
+                <span>[2012-07-17]</span>
+                <span>
+                    <input type="button" name="download" value="下载" />
+                </span>
+                <span>
+                    <input type="button" name="preview" value="预览" />
+                </span>
+            </li>
+            <li>
+                <span>
+                    <img src="img/fileIcon3.png" width="15" height="20">
+                    <a>1.doc</a>
+                </span>
+
+                <span>[2012-07-17]</span>
+                <span>
+                    <input type="button" name="download" value="下载" />
+                </span>
+                <span>
+                    <input type="button" name="preview" value="预览" />
+                </span>
+            </li>
+            <li>
+                <span>
+                    <img src="img/fileIcon3.png" width="15" height="20">
+                    <a>1.doc</a>
+                </span>
+
+                <span>[2012-07-17]</span>
+                <span>
+                    <input type="button" name="download" value="下载" />
+                </span>
+                <span>
+                    <input type="button" name="preview" value="预览" />
+                </span>
+            </li>
+            <li>
+                <span>
+                    <img src="img/fileIcon3.png" width="15" height="20">
+                    <a>1.doc</a>
+                </span>
+
+                <span>[2012-07-17]</span>
+                <span>
+                    <input type="button" name="download" value="下载" />
+                </span>
+                <span>
+                    <input type="button" name="preview" value="预览" />
+                </span>
+            </li>
+            <li>
+                <span>
+                    <img src="img/fileIcon3.png" width="15" height="20">
+                    <a>1.doc</a>
+                </span>
+
+                <span>[2012-07-17]</span>
+                <span>
+                    <input type="button" name="download" value="下载" />
+                </span>
+                <span>
+                    <input type="button" name="preview" value="预览" />
+                </span>
+            </li>
+
+        </ul>
     </div>
-    <div class="list_things">
-            <div id="newslist">
-                <ul class='list-none metlist'>
-                    <li class='list top'>
-                        <span>
-                            <input type="button" name="download" value="下载" />
-                        </span>
-                        <span>[2012-07-17]</span>
-                        <div class="fileIcon">
-                            <img src="img/fileIcon3.png" width="15" height="20">
-                        </div>
-
-                        <a href='#' title='' target='_self'>1.doc</a>
-                    </li>
-
-                    <li class='list '>
-                        <span>
-                            <input type="button" name="download" value="下载" />
-                        </span>
-                        <span>[2012-07-16]</span>
-                        <div class="fileIcon">
-                            <img src="img/fileIcon3.png" width="15" height="20">
-                        </div>
-                        <a href='#' title='' target='_self'>2.pdf</a>
-                    </li>
-
-                    <li class='list '>
-                        <span>
-                            <input type="button" name="download" value="下载" />
-                        </span>
-                        <span>[2012-07-16]</span>
-                        <div class="fileIcon">
-                            <img src="img/fileIcon3.png" width="15" height="20">
-                        </div>
-                        <a href='#' title='' target='_self'>3.xsl</a>
-                    </li>
-
-                    <li class='list '>
-                        <span>
-                            <input type="button" name="download" value="下载" />
-                        </span>
-                        <span>[2012-07-16]</span>
-                        <div class="fileIcon">
-                            <img src="img/fileIcon3.png" width="15" height="20">
-                        </div>
-                        <a href='#' title='' target='_self'>4.ppt</a>
-                    </li>
-
-                    <li class='list '>
-                        <span>
-                            <input type="button" name="download" value="下载" />
-                        </span>
-                        <span>[2012-07-16]</span>
-                        <div class="fileIcon">
-                            <img src="img/fileIcon3.png" width="15" height="20">
-                        </div>
-                        <a href='#' title='' target='_self'>5.jpg</a>
-                    </li>
-
-                    <li class='list '>
-                        <span>
-                            <input type="button" name="download" value="下载" />
-                        </span>
-                        <span>[2012-07-16]</span>
-                        <div class="fileIcon">
-                            <img src="img/fileIcon3.png" width="15" height="20">
-                        </div>
-                        <a href='#' title='' target='_self'>6.png</a>
-                    </li>
-
-                </ul>
-            </div>
-    </div>
-</div>
-
 </body>
 </html>
