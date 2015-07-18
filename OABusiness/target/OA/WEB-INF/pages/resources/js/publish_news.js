@@ -58,12 +58,23 @@ KindEditor.ready(function(K) {
 
     K('input[id=publish]').click(function(e) {
         var xmlhttp;
+        var t = document.getElementsByName("identity");
+        var type;
         var topic = document.getElementById("G_topic").value;
         var author = document.getElementById("G_author").value;
         var content = editor.html();
-        //var content = document.getElementById("G_content").value;
-        //alert(editor.html());
-        //alert(content);
+
+
+        for(var i=0;i<t.length;i++) {
+            if (t.item(i).checked) {
+                type = t.item(i).getAttribute("value");
+                break;
+            } else {
+                continue;
+            }
+        }
+
+        //alert(type);
         if (window.XMLHttpRequest)
         {// code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp=new XMLHttpRequest();
@@ -81,9 +92,8 @@ KindEditor.ready(function(K) {
                 location.reload(true);
             }
         };
-        xmlhttp.open("POST","/publishNews?topic="+topic+"&author="+author+"&content="+content,true);
+        xmlhttp.open("POST","/publishNews?type="+type+"&topic="+topic+"&author="+author+"&content="+content,true);
         xmlhttp.send();
-
     });
 
 });

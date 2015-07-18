@@ -17,8 +17,10 @@
   <div class="nav_list" id="leftnav">
 
     <ul  id="ul_1">
-      <li><a onclick="onClickJump(this)" target='main' name='1_1' id='nav_1_8' class="on" title="发布新闻公告" hidefocus="true">发布新闻公告</a></li>
-      <li><a onclick="onClickJump(this)" target='main' name='1_2' id='nav_1_9' title="查看历史新闻" name='2' hidefocus="true">查看历史新闻</a></li>
+      <li><a onclick="onClickJump(this)" target='main' name='1_1' id='nav_1_1' class="on" title="发布新闻" hidefocus="true">发布新闻</a></li>
+      <li><a onclick="onClickJump(this)" target='main' name='1_2' id='nav_1_2' title="历史时事新闻" hidefocus="true">历史时事新闻</a></li>
+      <li><a onclick="onClickJump(this)" target='main' name='1_3' id='nav_1_3' title="历史通知公告" hidefocus="true">历史通知公告</a></li>
+      <li><a onclick="onClickJump(this)" target='main' name='1_4' id='nav_1_4' title="历史宣传报道" hidefocus="true">历史宣传报道</a></li>
     </ul>
 
   </div>

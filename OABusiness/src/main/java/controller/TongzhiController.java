@@ -32,4 +32,13 @@ public class TongzhiController {
         System.out.println(tongzhiid);
         return "shownews";
     }
+
+
+    @RequestMapping(value = "/historyNotification", method = RequestMethod.GET)
+    public String getHistoryNotification(ModelMap modelMap){
+        /*List<News> newsList;
+        newsList=getAllNewsService.getAllNews();
+        modelMap.addAttribute("newsList",newsList);*/
+        return "R1_history_notification";
+    }
 }

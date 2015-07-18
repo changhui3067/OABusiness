@@ -25,7 +25,13 @@ function  onClickJump(param){
             xmlhttp.open("GET","/publishNews",true);
             break;
         case "1_2":
-            xmlhttp.open("GET","/historyNews",true);
+        xmlhttp.open("GET","/historyNews",true);
+        break;
+        case "1_3":
+            xmlhttp.open("GET","/historyReport",true);
+            break;
+        case "1_4":
+            xmlhttp.open("GET","/historyNotification",true);
             break;
         case "2_1":
             /*xmlhttp.open("GET","/addEmployee",true);*/

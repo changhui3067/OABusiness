@@ -32,4 +32,12 @@ public class XuanchuanController {
         System.out.println(Xuanchuanid);
         return "shownews";
     }
+
+    @RequestMapping(value = "/historyReport", method = RequestMethod.GET)
+    public String getHistoryReport(ModelMap modelMap){
+        /*List<News> newsList;
+        newsList=getAllNewsService.getAllNews();
+        modelMap.addAttribute("newsList",newsList);*/
+        return "R1_history_report";
+    }
 }

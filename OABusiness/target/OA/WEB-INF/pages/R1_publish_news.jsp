@@ -17,6 +17,16 @@
         <table cellpadding="2" cellspacing="1" class="table">
 
             <tr>
+                <td class="text"><span class="bi_tian">*</span>发布类型：</td>
+                <td class="input">
+                    <input type="radio" name="identity" value="notification" checked="checked" />通知公告
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="identity" value="report" />宣传报道
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="identity" value="news" />时事新闻
+                </td>
+            </tr>
+            <tr>
                 <td class="text"><span class="bi_tian">*</span>公告标题：</td>
                 <td class="input"><input name="met_webname" type="text" class="text" id="G_topic"/></td>
             </tr>
@@ -32,11 +42,6 @@
                 <td class="text"><span class="bi_tian">*</span>添加图片：</td>
                 <td class="input upload">
                     <input name="met_upsql" type="file" id="file_upload" />
-                    <!--<script type='text/javascript'>
-                        $(document).ready(function(){
-                            metuploadify('#file_upload','upimage','met_logo');
-                        });
-                    </script>-->
                 </td>
             </tr>
 
@@ -56,7 +61,7 @@
 
 
         </table>
-        <input <%--onclick="publish()" --%>type="button" id="publish" name="submit1" value="发布" class="loginButton R1_1"  />
+        <input type="button" id="publish" name="submit1" value="发布" class="loginButton R1_1"  />
     </div>
 
 

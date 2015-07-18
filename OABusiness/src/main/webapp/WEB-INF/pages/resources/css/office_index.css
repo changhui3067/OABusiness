@@ -2436,6 +2436,32 @@ table.equipment_table td{
 	margin-left: 62px;
 }
 
+
+
+.list_things {
+	/*padding-top:15px;*/
+	padding-left:70px;
+	padding-right:200px;
+}
+.list_things li {
+	list-style:none;
+	padding-left:3px;
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+}
+.list_things li {
+	padding: 9px 10px;
+	background: url(../img/dt-0.gif) no-repeat left 19px;
+	font: 12px/1.8 Tahoma,Verdana,'Simsun';
+	color: #333;
+}
+.list_things li span {
+	float:right;
+	color:#999;
+	margin-right: 20px;
+}
+
 /*  日程申请、审批  */
 
 .input_button2 {
